@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- ========================================================= -->
+    <!-- MapReduce Framework                                       -->
+    <!-- ========================================================= -->
+
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+
+    <property>
+        <name>mapreduce.jobhistory.address</name>
+        <value>historyserver:10020</value>
+    </property>
+
+    <property>
+        <name>mapreduce.jobhistory.webapp.address</name>
+        <value>historyserver:19888</value>
+    </property>
+
+    <!-- ========================================================= -->
+    <!-- Application Master Environment                            -->
+    <!-- ========================================================= -->
+
+    <property>
+        <name>yarn.app.mapreduce.am.env</name>
+        <value>JAVA_HOME=/opt/java/openjdk,HADOOP_HOME=/opt/hadoop,HADOOP_MAPRED_HOME=/opt/hadoop</value>
+    </property>
+
+    <!-- ========================================================= -->
+    <!-- Mapper Environment                                        -->
+    <!-- ========================================================= -->
+
+    <property>
+        <name>mapreduce.map.env</name>
+        <value>JAVA_HOME=/opt/java/openjdk,HADOOP_HOME=/opt/hadoop,HADOOP_MAPRED_HOME=/opt/hadoop</value>
+    </property>
+
+    <!-- ========================================================= -->
+    <!-- Reducer Environment                                       -->
+    <!-- ========================================================= -->
+
+    <property>
+        <name>mapreduce.reduce.env</name>
+        <value>JAVA_HOME=/opt/java/openjdk,HADOOP_HOME=/opt/hadoop,HADOOP_MAPRED_HOME=/opt/hadoop</value>
+    </property>
+
+    <!-- ========================================================= -->
+    <!-- MapReduce Classpath                                       -->
+    <!-- ========================================================= -->
+
+    <property>
+        <name>mapreduce.application.classpath</name>
+        <value>/opt/hadoop/etc/hadoop:/opt/hadoop/share/hadoop/common/*:/opt/hadoop/share/hadoop/common/lib/*:/opt/hadoop/share/hadoop/hdfs/*:/opt/hadoop/share/hadoop/hdfs/lib/*:/opt/hadoop/share/hadoop/yarn/*:/opt/hadoop/share/hadoop/yarn/lib/*:/opt/hadoop/share/hadoop/mapreduce/*:/opt/hadoop/share/hadoop/mapreduce/lib/*</value>
+    </property>
+
+</configuration>

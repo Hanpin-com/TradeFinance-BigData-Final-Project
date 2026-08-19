@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+set -e
+
+ROLE="${HIVE_ROLE:-}"
+
+echo "Waiting for Hadoop NameNode..."
+/opt/bigdata/bin/wait-for.sh namenode 9000 namenode-rpc
+
+echo "Waiting for Hive Metastore PostgreSQL..."
+/opt/bigdata/bin/wait-for.sh hive-metastore-postgresql 5432 postgres
+
+echo "Preparing Hive directories in HDFS..."
+hdfs dfs -mkdir -p /tmp /user/hive/warehouse || true
+hdfs dfs -chmod 1777 /tmp || true
+hdfs dfs -chmod -R 777 /user/hive/warehouse || true
+
+if [ "$ROLE" = "metastore" ]; then
+
+  echo "Checking Hive Metastore schema..."
+
+  if ! schematool -dbType postgres -info >/tmp/schema-info.log 2>&1; then
+    echo "Initializing Hive Metastore schema..."
+    schematool -dbType postgres -initSchema
+  fi
+
+  echo "Starting Hive Metastore..."
+  exec hive --service metastore
+
+elif [ "$ROLE" = "server2" ]; then
+
+  echo "Waiting for Hive Metastore..."
+  /opt/bigdata/bin/wait-for.sh hive-metastore 9083 hive-metastore
+
+  echo "Starting HiveServer2..."
+  exec /opt/hive/bin/hiveserver2
+
+else
+
+  echo "ERROR: Unknown HIVE_ROLE: $ROLE" >&2
+  echo "Supported roles: metastore, server2" >&2
+  exit 1
+
+fi

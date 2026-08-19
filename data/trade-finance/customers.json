@@ -1,0 +1,8402 @@
+[
+  {
+    "customer_id": "CUST-00001",
+    "name": "Rodriguez, Figueroa and Sanchez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00002",
+    "name": "Doyle Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00003",
+    "name": "Mcclain, Miller and Henderson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00004",
+    "name": "Davis and Sons",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00005",
+    "name": "Guzman, Hoffman and Baldwin",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00006",
+    "name": "Gardner, Robinson and Lawrence",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00007",
+    "name": "Blake and Sons",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00008",
+    "name": "Henderson, Ramirez and Lewis",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00009",
+    "name": "Garcia-James",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00010",
+    "name": "Abbott-Munoz",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00011",
+    "name": "Blair PLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00012",
+    "name": "Dudley Group",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00013",
+    "name": "Arnold Ltd",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00014",
+    "name": "Mcclure, Ward and Lee",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00015",
+    "name": "Williams and Sons",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00016",
+    "name": "Galloway-Wyatt",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00017",
+    "name": "James Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00018",
+    "name": "Flowers, Martin and Kelly",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00019",
+    "name": "Adams, Zuniga and Wong",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00020",
+    "name": "Reid, Ferguson and Sanchez",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00021",
+    "name": "Gray-Mayo",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00022",
+    "name": "Watts, Robinson and Nguyen",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00023",
+    "name": "Perez Inc",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00024",
+    "name": "Morales-Jones",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00025",
+    "name": "Walter, Edwards and Rios",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00026",
+    "name": "Wilkerson-Day",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00027",
+    "name": "Baker and Sons",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00028",
+    "name": "Hoffman, Baker and Richards",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00029",
+    "name": "Ross, Robinson and Bright",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00030",
+    "name": "Snyder, Campos and Callahan",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00031",
+    "name": "Burton Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00032",
+    "name": "Carlson-Cruz",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00033",
+    "name": "Ferrell, Rice and Maddox",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00034",
+    "name": "Frazier Inc",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00035",
+    "name": "Dyer, Potter and Mack",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00036",
+    "name": "Rodriguez-Graham",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00037",
+    "name": "Smith-Bowen",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00038",
+    "name": "Baker, Mason and White",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00039",
+    "name": "Harrell LLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00040",
+    "name": "Romero, Gonzalez and Brooks",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00041",
+    "name": "Ryan PLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00042",
+    "name": "George Group",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00043",
+    "name": "Rodriguez LLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00044",
+    "name": "Allen-Allen",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00045",
+    "name": "Arroyo, Miller and Tucker",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00046",
+    "name": "Spence PLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00047",
+    "name": "Anderson Group",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00048",
+    "name": "Martin, Rose and Obrien",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00049",
+    "name": "Hickman Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00050",
+    "name": "Harris, Collins and Carney",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00051",
+    "name": "Brooks, Lam and Hayes",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00052",
+    "name": "Walker LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00053",
+    "name": "Chapman and Sons",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00054",
+    "name": "Robinson, Jones and Welch",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00055",
+    "name": "Jones Inc",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00056",
+    "name": "Jones-Young",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00057",
+    "name": "Washington, Ryan and Cummings",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00058",
+    "name": "Johnston, Sanchez and Kennedy",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00059",
+    "name": "Lee-Davis",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00060",
+    "name": "Gomez-Jenkins",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00061",
+    "name": "Brown, Valdez and Lucas",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00062",
+    "name": "Powell LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00063",
+    "name": "Wright and Sons",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00064",
+    "name": "West, Henderson and Ramirez",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00065",
+    "name": "Baxter Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00066",
+    "name": "Morton-Chase",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00067",
+    "name": "Williams PLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00068",
+    "name": "Novak and Sons",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00069",
+    "name": "Russell Group",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00070",
+    "name": "Hancock Inc",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00071",
+    "name": "Gray Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00072",
+    "name": "House-Glover",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00073",
+    "name": "Henderson-Bernard",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00074",
+    "name": "Stanley, Tucker and Lee",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00075",
+    "name": "Novak PLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00076",
+    "name": "Daniels, Adkins and Brown",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00077",
+    "name": "Woods, Calhoun and Schmidt",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00078",
+    "name": "Yu Inc",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00079",
+    "name": "Jones Inc",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00080",
+    "name": "Hensley, Powell and David",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00081",
+    "name": "Sanchez, Wheeler and Harvey",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00082",
+    "name": "Sandoval-Cunningham",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00083",
+    "name": "Donovan-Harris",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00084",
+    "name": "Edwards, Baker and Anderson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00085",
+    "name": "Evans, Stewart and Walton",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00086",
+    "name": "Smith PLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00087",
+    "name": "Ferrell, Jones and Lewis",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00088",
+    "name": "Anderson-Bailey",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00089",
+    "name": "Suarez LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00090",
+    "name": "Moore-Bass",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00091",
+    "name": "Turner, Riggs and Roman",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00092",
+    "name": "Smith, Montoya and Evans",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00093",
+    "name": "Garcia, Humphrey and Baker",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00094",
+    "name": "Newton and Sons",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00095",
+    "name": "Campbell-Clark",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00096",
+    "name": "Harris-Walters",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00097",
+    "name": "Wagner-King",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00098",
+    "name": "Davis Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00099",
+    "name": "Williams-Cook",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00100",
+    "name": "Walsh LLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00101",
+    "name": "Figueroa PLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00102",
+    "name": "Patterson, Smith and Jones",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00103",
+    "name": "Mckee, Gardner and Davenport",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00104",
+    "name": "Tran, Jordan and Williams",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00105",
+    "name": "Nolan-Flynn",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00106",
+    "name": "Nolan and Sons",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00107",
+    "name": "Wright, Garcia and Deleon",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00108",
+    "name": "Dickson-Brady",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00109",
+    "name": "Hancock and Sons",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00110",
+    "name": "Johnson-Doyle",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00111",
+    "name": "Patton-Jenkins",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00112",
+    "name": "Shields, Cochran and Adams",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00113",
+    "name": "Rodriguez, Brennan and Garrison",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00114",
+    "name": "Gonzalez Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00115",
+    "name": "Torres-Pope",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00116",
+    "name": "Walker Ltd",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00117",
+    "name": "Ross LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00118",
+    "name": "Rasmussen LLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00119",
+    "name": "May-Ross",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00120",
+    "name": "Rivera, Johnson and Wiley",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00121",
+    "name": "White-Estes",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00122",
+    "name": "Johnson-Carlson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00123",
+    "name": "Chandler-Edwards",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00124",
+    "name": "Joyce, Wilson and Lam",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00125",
+    "name": "Scott Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00126",
+    "name": "Smith-Frost",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00127",
+    "name": "Mcdaniel, Bentley and Mclaughlin",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00128",
+    "name": "Diaz Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00129",
+    "name": "Mccall, Hanson and Alvarado",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00130",
+    "name": "Cortez LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00131",
+    "name": "Parker, Ortiz and Powell",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00132",
+    "name": "Spencer-Lee",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00133",
+    "name": "Bentley, Byrd and Orr",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00134",
+    "name": "Carroll, Sullivan and Bass",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00135",
+    "name": "Mitchell-Jordan",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00136",
+    "name": "Lawson, Morris and Ramos",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00137",
+    "name": "Lewis, Kennedy and Santana",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00138",
+    "name": "Jackson, Miller and Robertson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00139",
+    "name": "Harvey, Davis and Crane",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00140",
+    "name": "Chambers and Sons",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00141",
+    "name": "Hernandez Inc",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00142",
+    "name": "Riggs PLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00143",
+    "name": "Gibson Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00144",
+    "name": "Lee, Horton and Snyder",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00145",
+    "name": "Hernandez Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00146",
+    "name": "Stafford Inc",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00147",
+    "name": "Robinson-Brock",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00148",
+    "name": "Holmes, Williams and Wright",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00149",
+    "name": "Bryant Group",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00150",
+    "name": "Schmidt, Hansen and Stewart",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00151",
+    "name": "Salazar-Ball",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00152",
+    "name": "Simmons, Meadows and Griffin",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00153",
+    "name": "Manning Group",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00154",
+    "name": "Green-Wright",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00155",
+    "name": "Ramirez, Strickland and Washington",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00156",
+    "name": "Hill Inc",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00157",
+    "name": "Mitchell, Nelson and Flores",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00158",
+    "name": "Miller, Hernandez and Reyes",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00159",
+    "name": "Mccarthy Inc",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00160",
+    "name": "Russell-Daniels",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00161",
+    "name": "Brown-Wall",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00162",
+    "name": "Stein-Silva",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00163",
+    "name": "Smith, Gilmore and Johnston",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00164",
+    "name": "Smith-Bell",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00165",
+    "name": "Castaneda-Ashley",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00166",
+    "name": "Medina-Navarro",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00167",
+    "name": "Hurst, Freeman and Nelson",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00168",
+    "name": "Johnson-Rogers",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00169",
+    "name": "Yates, Ramsey and Pittman",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00170",
+    "name": "Hooper PLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00171",
+    "name": "Meadows PLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00172",
+    "name": "Alvarado, Miller and Patterson",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00173",
+    "name": "White-Green",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00174",
+    "name": "Lewis-Murphy",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00175",
+    "name": "Ramirez-Bean",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00176",
+    "name": "King-Miller",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00177",
+    "name": "Curry Inc",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00178",
+    "name": "Walker-Jones",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00179",
+    "name": "Williams, Johnson and Wright",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00180",
+    "name": "Howell and Sons",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00181",
+    "name": "Wells Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00182",
+    "name": "Gould, Marshall and Scott",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00183",
+    "name": "Jackson-Lawson",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00184",
+    "name": "Higgins, Strickland and Martin",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00185",
+    "name": "Rodriguez-Johnson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00186",
+    "name": "Johnston-Odonnell",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00187",
+    "name": "Sanders-Espinoza",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00188",
+    "name": "Vargas Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00189",
+    "name": "Garcia LLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00190",
+    "name": "Burke, Martinez and Riggs",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00191",
+    "name": "Reed Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00192",
+    "name": "Wood, Hunter and Peterson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00193",
+    "name": "Short-Garcia",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00194",
+    "name": "Reid-Poole",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00195",
+    "name": "Hernandez, Thompson and Boyd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00196",
+    "name": "Nelson, Morton and Medina",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00197",
+    "name": "Marshall-Petersen",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00198",
+    "name": "Adams, Christian and Rivas",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00199",
+    "name": "Ramirez Group",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00200",
+    "name": "Christensen PLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00201",
+    "name": "Barnett, Rogers and Snyder",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00202",
+    "name": "White-Lewis",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00203",
+    "name": "Peterson-Beard",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00204",
+    "name": "Beard, Peters and Black",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00205",
+    "name": "Miller Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00206",
+    "name": "Freeman-Chang",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00207",
+    "name": "Alvarez, Joseph and West",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00208",
+    "name": "Davis and Sons",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00209",
+    "name": "Holt-Torres",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00210",
+    "name": "Wood, Tran and Cooper",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00211",
+    "name": "Pierce, Bell and Chavez",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00212",
+    "name": "King-Martinez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00213",
+    "name": "Stewart Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00214",
+    "name": "Tapia, Vaughn and Lee",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00215",
+    "name": "Washington, Hardy and Bray",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00216",
+    "name": "Carlson, Hooper and Wall",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00217",
+    "name": "Perez-White",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00218",
+    "name": "Erickson and Sons",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00219",
+    "name": "Williams-Brown",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00220",
+    "name": "Terry-Martinez",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00221",
+    "name": "Garcia-Smith",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00222",
+    "name": "Harrison-Alexander",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00223",
+    "name": "Sheppard LLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00224",
+    "name": "Wilson-Jones",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00225",
+    "name": "Jones-Soto",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00226",
+    "name": "Hernandez PLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00227",
+    "name": "Miller-Wright",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00228",
+    "name": "Duran, Obrien and Gibbs",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00229",
+    "name": "Rowe Group",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00230",
+    "name": "Kerr-Evans",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00231",
+    "name": "Branch, Torres and Oliver",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00232",
+    "name": "Choi, Garcia and Farmer",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00233",
+    "name": "Clark, Guerrero and Moore",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00234",
+    "name": "Arnold and Sons",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00235",
+    "name": "Ortiz Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00236",
+    "name": "Harrison, Johnson and Roberts",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00237",
+    "name": "Warner-Gibson",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00238",
+    "name": "Hall, Baker and Moody",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00239",
+    "name": "Guerrero, Peck and Coleman",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00240",
+    "name": "Walker, Hernandez and Baker",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00241",
+    "name": "Jones and Sons",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00242",
+    "name": "Larson-Holloway",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00243",
+    "name": "Gonzales-Harrison",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00244",
+    "name": "Lyons-Bender",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00245",
+    "name": "Fernandez, Kim and George",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00246",
+    "name": "Navarro-Munoz",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00247",
+    "name": "Davis Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00248",
+    "name": "Matthews, Smith and Hubbard",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00249",
+    "name": "Johnston-Hines",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00250",
+    "name": "Ruiz Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00251",
+    "name": "Moon-White",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00252",
+    "name": "Graham, Olsen and Costa",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00253",
+    "name": "Bailey-Cook",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00254",
+    "name": "Garcia, Martin and Jenkins",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00255",
+    "name": "Roberts-Landry",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00256",
+    "name": "Johnson, Miller and King",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00257",
+    "name": "Cordova Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00258",
+    "name": "Bryan, Smith and Booth",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00259",
+    "name": "Gutierrez-Lopez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00260",
+    "name": "Dean-Jimenez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00261",
+    "name": "Wolf-Harris",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00262",
+    "name": "Anderson, Roberts and Gilmore",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00263",
+    "name": "Martinez-Dudley",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00264",
+    "name": "Lloyd, Mckinney and Collins",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00265",
+    "name": "Tran Inc",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00266",
+    "name": "Gay Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00267",
+    "name": "Valentine-Holland",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00268",
+    "name": "Jimenez Ltd",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00269",
+    "name": "Hicks-Hill",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00270",
+    "name": "Baird-Sanchez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00271",
+    "name": "Thomas, Lee and Greene",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00272",
+    "name": "Suarez, Shields and Hill",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00273",
+    "name": "Morgan-French",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00274",
+    "name": "Hoover-Campbell",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00275",
+    "name": "Monroe-Carpenter",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00276",
+    "name": "Burns, Hernandez and Ryan",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00277",
+    "name": "Cook-Hines",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00278",
+    "name": "Gibson-Morris",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00279",
+    "name": "Pollard and Sons",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00280",
+    "name": "Reyes, Chase and Jenkins",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00281",
+    "name": "Garner-Thornton",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00282",
+    "name": "Hughes-Alvarado",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00283",
+    "name": "Pollard, Simpson and Johnson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00284",
+    "name": "Sanford, Rivera and Garcia",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00285",
+    "name": "Garcia-Lozano",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00286",
+    "name": "Bowen Group",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00287",
+    "name": "Booker, Jones and Harrington",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00288",
+    "name": "Morgan-Schwartz",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00289",
+    "name": "Miller, Murphy and Craig",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00290",
+    "name": "James, Stewart and Higgins",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00291",
+    "name": "Brennan-Johnson",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00292",
+    "name": "Young Ltd",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00293",
+    "name": "Bright-Francis",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00294",
+    "name": "Good-Hodges",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00295",
+    "name": "Brennan, Wallace and Benson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00296",
+    "name": "Williams Inc",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00297",
+    "name": "Howard-Jordan",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00298",
+    "name": "Schmidt PLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00299",
+    "name": "Sparks, Jackson and Miller",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00300",
+    "name": "Harvey-Allen",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00301",
+    "name": "Thomas, Murray and King",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00302",
+    "name": "Estrada-Nolan",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00303",
+    "name": "Santana-Byrd",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00304",
+    "name": "Jones LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00305",
+    "name": "Evans, Hayden and Vaughn",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00306",
+    "name": "Bruce-Gonzalez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00307",
+    "name": "Castaneda-Rodriguez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00308",
+    "name": "Armstrong-Andrews",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00309",
+    "name": "Phillips, Spence and Barrett",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00310",
+    "name": "Smith-Grimes",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00311",
+    "name": "Beltran, Lozano and Mcgee",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00312",
+    "name": "Parsons-Hall",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00313",
+    "name": "Robinson-Lee",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00314",
+    "name": "Byrd-Le",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00315",
+    "name": "Becker, Taylor and Davis",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00316",
+    "name": "Lucas, Parker and Alexander",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00317",
+    "name": "Diaz, Anderson and Browning",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00318",
+    "name": "Burgess-Thompson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00319",
+    "name": "Buchanan LLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00320",
+    "name": "Shaw, Nelson and Martin",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00321",
+    "name": "Coffey-Phillips",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00322",
+    "name": "Brock-Mcdonald",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00323",
+    "name": "Taylor and Sons",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00324",
+    "name": "Ramsey, Whitney and Coffey",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00325",
+    "name": "Diaz, Gibbs and Smith",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00326",
+    "name": "Martinez, Richardson and Curry",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00327",
+    "name": "Richards-Carson",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00328",
+    "name": "Rodriguez-Hall",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00329",
+    "name": "Harvey PLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00330",
+    "name": "Herman-Walker",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00331",
+    "name": "Reid Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00332",
+    "name": "Turner, Ortiz and Taylor",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00333",
+    "name": "Torres Group",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00334",
+    "name": "Davis PLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00335",
+    "name": "Price LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00336",
+    "name": "Avery, Horton and Fernandez",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00337",
+    "name": "Newton, Moore and Perry",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00338",
+    "name": "Bass PLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00339",
+    "name": "Crosby-Ramirez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00340",
+    "name": "Wood, Ramos and Sampson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00341",
+    "name": "Garcia-Jennings",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00342",
+    "name": "Winters, Newman and Brown",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00343",
+    "name": "Lopez-Martinez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00344",
+    "name": "Davis-Lewis",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00345",
+    "name": "Harper, Smith and Buchanan",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00346",
+    "name": "Zhang PLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00347",
+    "name": "Jones PLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00348",
+    "name": "Willis and Sons",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00349",
+    "name": "Schroeder-Kramer",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00350",
+    "name": "Smith, Garrison and Thomas",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00351",
+    "name": "Fernandez and Sons",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00352",
+    "name": "Guerrero Inc",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00353",
+    "name": "Smith and Sons",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00354",
+    "name": "Morris, Thompson and Williams",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00355",
+    "name": "Fisher, Wilson and Brown",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00356",
+    "name": "Strickland-Palmer",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00357",
+    "name": "Hayes and Sons",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00358",
+    "name": "Williams, Logan and Camacho",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00359",
+    "name": "Turner, Schneider and Johnson",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00360",
+    "name": "Boone-Simmons",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00361",
+    "name": "Henry Group",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00362",
+    "name": "Lam LLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00363",
+    "name": "Hernandez, Martinez and Weber",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00364",
+    "name": "Kelley, Nguyen and Vang",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00365",
+    "name": "Phillips, Wagner and Jordan",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00366",
+    "name": "Wilson, Pena and Rich",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00367",
+    "name": "Le, Lewis and Hayes",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00368",
+    "name": "Gutierrez Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00369",
+    "name": "Perry-Davis",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00370",
+    "name": "Edwards-Scott",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00371",
+    "name": "Mcdaniel Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00372",
+    "name": "Davis Inc",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00373",
+    "name": "Reynolds Ltd",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00374",
+    "name": "Watson, Anderson and Brown",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00375",
+    "name": "Hoffman, Santiago and Jenkins",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00376",
+    "name": "Pugh, Henderson and Moon",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00377",
+    "name": "Schmitt PLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00378",
+    "name": "Bell-Lane",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00379",
+    "name": "Moore Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00380",
+    "name": "Boone LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00381",
+    "name": "Richardson, Farmer and Andrews",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00382",
+    "name": "Bruce-Villegas",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00383",
+    "name": "Austin, Day and Johnson",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00384",
+    "name": "Gallegos, Adams and White",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00385",
+    "name": "Farmer, Dorsey and Bell",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00386",
+    "name": "Kane PLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00387",
+    "name": "Morales, Thomas and Schultz",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00388",
+    "name": "Davis PLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00389",
+    "name": "Bennett Group",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00390",
+    "name": "Moore-Collins",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00391",
+    "name": "Frank-Bradley",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00392",
+    "name": "Ware and Sons",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00393",
+    "name": "Webster Inc",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00394",
+    "name": "Miller, Ramos and Coleman",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00395",
+    "name": "Ramos, Nelson and Fischer",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00396",
+    "name": "Reed Inc",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00397",
+    "name": "Gregory-Watkins",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00398",
+    "name": "Estrada, Williams and Foster",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00399",
+    "name": "Brown, Harris and Dougherty",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00400",
+    "name": "Duran LLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00401",
+    "name": "Wilson-Jimenez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00402",
+    "name": "Thompson-James",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00403",
+    "name": "Hall, Hansen and Barnett",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00404",
+    "name": "Jones-Hensley",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00405",
+    "name": "Graham Group",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00406",
+    "name": "Atkins PLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00407",
+    "name": "Berry-Mckinney",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00408",
+    "name": "Roberts-Sullivan",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00409",
+    "name": "Jackson-Meza",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00410",
+    "name": "Collier-Gillespie",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00411",
+    "name": "Kim Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00412",
+    "name": "Graham Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00413",
+    "name": "Miller, Harrell and Reese",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00414",
+    "name": "Cook and Sons",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00415",
+    "name": "Dixon Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00416",
+    "name": "Hicks, Bullock and Bailey",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00417",
+    "name": "Mullen, Brewer and Hernandez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00418",
+    "name": "Thomas and Sons",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00419",
+    "name": "Morrison Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00420",
+    "name": "Thompson Ltd",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00421",
+    "name": "Marshall-Elliott",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00422",
+    "name": "Cole, Glass and Cunningham",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00423",
+    "name": "Downs, Morris and Maddox",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00424",
+    "name": "Hernandez-Jones",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00425",
+    "name": "Welch-Hogan",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00426",
+    "name": "Brown, Romero and Collins",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00427",
+    "name": "Johnson-Wood",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00428",
+    "name": "Jones-Lin",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00429",
+    "name": "Gilbert PLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00430",
+    "name": "Ford-Spencer",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00431",
+    "name": "Huang, Cole and Pacheco",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00432",
+    "name": "Lopez, Jacobs and Mason",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00433",
+    "name": "Hayes LLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00434",
+    "name": "Miller, Lucas and Williams",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00435",
+    "name": "Kim, Gonzales and Mills",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00436",
+    "name": "Cox LLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00437",
+    "name": "Ortiz-Morgan",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00438",
+    "name": "Williams, Mccoy and Cook",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00439",
+    "name": "Davis-Gregory",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00440",
+    "name": "King-York",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00441",
+    "name": "Marks, Cook and Aguilar",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00442",
+    "name": "Rangel LLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00443",
+    "name": "Hale, Myers and Larson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00444",
+    "name": "Collins Group",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00445",
+    "name": "Conner, Li and Santiago",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00446",
+    "name": "Osborn, Gaines and Davis",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00447",
+    "name": "Henderson, Cox and Cox",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00448",
+    "name": "Bean LLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00449",
+    "name": "Lee-Cooke",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00450",
+    "name": "Jones Inc",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00451",
+    "name": "Wise, Conley and Stephenson",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00452",
+    "name": "Stanley PLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00453",
+    "name": "Harper and Sons",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00454",
+    "name": "White Ltd",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00455",
+    "name": "Lamb, Martin and Kim",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00456",
+    "name": "Diaz-Ball",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00457",
+    "name": "Bishop-Goodwin",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00458",
+    "name": "Young-Allen",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00459",
+    "name": "Mckee-Lee",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00460",
+    "name": "Valentine, Joyce and Murray",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00461",
+    "name": "Strickland-Shaw",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00462",
+    "name": "Burch-Montoya",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00463",
+    "name": "Taylor, Wright and Davidson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00464",
+    "name": "Spencer-Garcia",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00465",
+    "name": "Rosales, Mitchell and Hines",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00466",
+    "name": "Cole-Palmer",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00467",
+    "name": "Davis-Lozano",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00468",
+    "name": "Wilkerson-Arias",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00469",
+    "name": "Brown-Shaw",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00470",
+    "name": "Hughes Inc",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00471",
+    "name": "Walker-Flores",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00472",
+    "name": "Combs Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00473",
+    "name": "Moody-Taylor",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00474",
+    "name": "Lowery-Kennedy",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00475",
+    "name": "Blake Group",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00476",
+    "name": "Gilbert-Bullock",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00477",
+    "name": "Scott and Sons",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00478",
+    "name": "Bentley, Lynch and Henderson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00479",
+    "name": "Young-Martinez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00480",
+    "name": "Barnes PLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00481",
+    "name": "Brown-Copeland",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00482",
+    "name": "Carlson-Smith",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00483",
+    "name": "Andrews, Higgins and Carter",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00484",
+    "name": "Mendez and Sons",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00485",
+    "name": "Butler, Beck and Miller",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00486",
+    "name": "Jones-Fox",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00487",
+    "name": "Hartman, Romero and Smith",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00488",
+    "name": "Williams-Hughes",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00489",
+    "name": "King-Smith",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00490",
+    "name": "Cooper Ltd",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00491",
+    "name": "Fuller, Ingram and Moss",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00492",
+    "name": "Anderson-Bell",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00493",
+    "name": "Li-Thompson",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00494",
+    "name": "Marshall, Dominguez and Welch",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00495",
+    "name": "Brown Group",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00496",
+    "name": "Carter Inc",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00497",
+    "name": "Blackwell LLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00498",
+    "name": "Robertson-Hays",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00499",
+    "name": "Kennedy, Johnson and Lucas",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00500",
+    "name": "Kelly-Norman",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00501",
+    "name": "Rivera, Martinez and Richardson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00502",
+    "name": "Paul-Kline",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00503",
+    "name": "Morgan-Lopez",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00504",
+    "name": "Jimenez, Glass and Stone",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00505",
+    "name": "Acosta Inc",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00506",
+    "name": "Morrison-Short",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00507",
+    "name": "Carter, Garcia and Murphy",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00508",
+    "name": "Parker-Morrison",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00509",
+    "name": "Jackson-Wallace",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00510",
+    "name": "Williams-Berg",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00511",
+    "name": "Mendez-Graham",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00512",
+    "name": "Whitney, Gould and Jones",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00513",
+    "name": "Sullivan, Palmer and Brady",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00514",
+    "name": "Cisneros and Sons",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00515",
+    "name": "Gregory, Kim and Martinez",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00516",
+    "name": "Osborne LLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00517",
+    "name": "Reyes-Bradley",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00518",
+    "name": "Hernandez, Cole and Watson",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00519",
+    "name": "Hines-Berry",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00520",
+    "name": "Richardson, Edwards and Ramirez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00521",
+    "name": "Johnson and Sons",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00522",
+    "name": "Holmes-Mcintyre",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00523",
+    "name": "Green LLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00524",
+    "name": "Griffin, Davies and Mitchell",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00525",
+    "name": "Gonzalez-Taylor",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00526",
+    "name": "Hayes Ltd",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00527",
+    "name": "Osborn-Cochran",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00528",
+    "name": "Contreras-Mckinney",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00529",
+    "name": "Daniels, Vance and York",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00530",
+    "name": "Mckinney, Graves and Thompson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00531",
+    "name": "Hicks-Martinez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00532",
+    "name": "Conner and Sons",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00533",
+    "name": "Johnson-Spencer",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00534",
+    "name": "Mcdonald-Bird",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00535",
+    "name": "Salazar Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00536",
+    "name": "Parker Ltd",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00537",
+    "name": "Mendoza, Jenkins and Ortiz",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00538",
+    "name": "Jones, Compton and Day",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00539",
+    "name": "Owens-Holmes",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00540",
+    "name": "Humphrey PLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00541",
+    "name": "Matthews, Saunders and Anderson",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00542",
+    "name": "Bartlett, Brown and Martinez",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00543",
+    "name": "Torres and Sons",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00544",
+    "name": "Donovan-Perez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00545",
+    "name": "Jacobson, Singleton and King",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00546",
+    "name": "Huber, Hill and Weber",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00547",
+    "name": "Ferguson, Shaw and Jackson",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00548",
+    "name": "Moore, Hopkins and Le",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00549",
+    "name": "Morgan, Bradshaw and Williams",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00550",
+    "name": "Miller Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00551",
+    "name": "Baker, Clark and Armstrong",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00552",
+    "name": "Fowler, Jimenez and Burton",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00553",
+    "name": "May-Turner",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00554",
+    "name": "Ballard Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00555",
+    "name": "Evans-Jones",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00556",
+    "name": "Moore Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00557",
+    "name": "Marshall-Peterson",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00558",
+    "name": "Edwards Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00559",
+    "name": "Gross-Valencia",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00560",
+    "name": "Anderson-Wood",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00561",
+    "name": "Rodriguez, Allen and Martinez",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00562",
+    "name": "Wright-Davis",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00563",
+    "name": "Dougherty-Lin",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00564",
+    "name": "Wright-Grimes",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00565",
+    "name": "Li PLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00566",
+    "name": "Edwards, Hines and Jimenez",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00567",
+    "name": "Owens, Koch and Jimenez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00568",
+    "name": "Landry PLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00569",
+    "name": "Levy-Lewis",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00570",
+    "name": "Williams-Campbell",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00571",
+    "name": "Khan, Pena and Ruiz",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00572",
+    "name": "Smith, Rodriguez and Anderson",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00573",
+    "name": "Luna-Gallagher",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00574",
+    "name": "Williams-Williams",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00575",
+    "name": "Lee, Tran and Jones",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00576",
+    "name": "Cole, Pierce and Bryan",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00577",
+    "name": "Becker, Wilson and Hester",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00578",
+    "name": "Brooks-Hatfield",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00579",
+    "name": "Mcmillan, Fischer and Gonzalez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00580",
+    "name": "Morales, Williams and Williams",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00581",
+    "name": "Cook, Wells and Bryant",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00582",
+    "name": "Barry, Taylor and Velazquez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00583",
+    "name": "Martin-Ewing",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00584",
+    "name": "Kirby, Wheeler and Romero",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00585",
+    "name": "Patel, Erickson and Evans",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00586",
+    "name": "Richardson Ltd",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00587",
+    "name": "Whitney PLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00588",
+    "name": "Robles-Swanson",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00589",
+    "name": "Soto, Carlson and Baker",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00590",
+    "name": "Patton, Parsons and Lane",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00591",
+    "name": "Williams, Castillo and Warren",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00592",
+    "name": "Harvey, Randall and Hernandez",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00593",
+    "name": "Allen, Armstrong and Graves",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00594",
+    "name": "Smith LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00595",
+    "name": "Hernandez-Vaughn",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00596",
+    "name": "Shaw-Carr",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00597",
+    "name": "Salas-Fitzgerald",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00598",
+    "name": "Thornton PLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00599",
+    "name": "Hoffman Ltd",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00600",
+    "name": "Fox-Edwards",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00601",
+    "name": "Stevens PLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00602",
+    "name": "Payne-Lowe",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00603",
+    "name": "Becker, Lara and Baker",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00604",
+    "name": "Lee-Wright",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00605",
+    "name": "Evans, David and Hendrix",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00606",
+    "name": "Bush-Vaughn",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00607",
+    "name": "Stewart-Bailey",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00608",
+    "name": "Hill, Martinez and Rhodes",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00609",
+    "name": "Huang-Foster",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00610",
+    "name": "Blevins-Ballard",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00611",
+    "name": "Williams-Moses",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00612",
+    "name": "Reed Group",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00613",
+    "name": "Scott, Mendoza and Harris",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00614",
+    "name": "Nelson, Hoffman and Nelson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00615",
+    "name": "Gilbert PLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00616",
+    "name": "Sanchez Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00617",
+    "name": "Perez, Hall and Garcia",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00618",
+    "name": "Love-Garcia",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00619",
+    "name": "Smith PLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00620",
+    "name": "Russell Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00621",
+    "name": "Santos-Avila",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00622",
+    "name": "Morris-Brewer",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00623",
+    "name": "Pearson and Sons",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00624",
+    "name": "Rodgers, Jefferson and Johnson",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00625",
+    "name": "Butler and Sons",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00626",
+    "name": "Osborn Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00627",
+    "name": "Lopez-Curry",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00628",
+    "name": "Mcdowell-Smith",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00629",
+    "name": "Morrison, Hebert and Rogers",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00630",
+    "name": "Hays-Daniels",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00631",
+    "name": "Small-Anderson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00632",
+    "name": "Mcdonald, Lee and Rodriguez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00633",
+    "name": "Simon Ltd",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00634",
+    "name": "Higgins-Smith",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00635",
+    "name": "Gibbs-Bradley",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00636",
+    "name": "Thompson Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00637",
+    "name": "Wilcox-Robertson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00638",
+    "name": "Morales Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00639",
+    "name": "Holden Group",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00640",
+    "name": "Boyle-Smith",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00641",
+    "name": "Young-Molina",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00642",
+    "name": "Turner-Sharp",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00643",
+    "name": "Green LLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00644",
+    "name": "Young, Contreras and Marshall",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00645",
+    "name": "Sullivan PLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00646",
+    "name": "Carrillo, Vaughn and Fowler",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00647",
+    "name": "Richardson-Walker",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00648",
+    "name": "Mendoza Group",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00649",
+    "name": "Zhang, Brooks and Miles",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00650",
+    "name": "Todd-Pham",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00651",
+    "name": "Gill Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00652",
+    "name": "Marks, Miller and Griffin",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00653",
+    "name": "Cox, Stark and Rodriguez",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00654",
+    "name": "Leach, Harris and Herrera",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00655",
+    "name": "Murphy PLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00656",
+    "name": "Wilson-Harris",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00657",
+    "name": "Burns, Nolan and Griffin",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00658",
+    "name": "Chavez PLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00659",
+    "name": "Bryant-Brown",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00660",
+    "name": "Chambers-Parker",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00661",
+    "name": "Foster Inc",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00662",
+    "name": "Robinson, Jones and Henderson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00663",
+    "name": "Brown, Mcknight and Michael",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00664",
+    "name": "Andersen Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00665",
+    "name": "Mitchell and Sons",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00666",
+    "name": "Cannon Ltd",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00667",
+    "name": "Stuart, Brooks and Vance",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00668",
+    "name": "Kane-Knox",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00669",
+    "name": "Miller-Brandt",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00670",
+    "name": "Anderson, Dalton and Wilson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00671",
+    "name": "Long, Anderson and Irwin",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00672",
+    "name": "Avila LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00673",
+    "name": "Nunez-Stephens",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00674",
+    "name": "Gray, Hall and Murray",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00675",
+    "name": "Hill Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00676",
+    "name": "Johnson Ltd",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00677",
+    "name": "Mendez-Mayer",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00678",
+    "name": "Allen Inc",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00679",
+    "name": "Wheeler Group",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00680",
+    "name": "Powers, Brennan and Sanchez",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00681",
+    "name": "Morales and Sons",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00682",
+    "name": "Robinson, Shields and Brown",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00683",
+    "name": "Holder, Young and Hendricks",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00684",
+    "name": "Flores, Harper and Chambers",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00685",
+    "name": "Young-Walter",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00686",
+    "name": "Boyd, Gutierrez and Hill",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00687",
+    "name": "Fry, Hobbs and Buck",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00688",
+    "name": "Shelton, Peters and Williams",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00689",
+    "name": "David-Powers",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00690",
+    "name": "Flores, Butler and Hernandez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00691",
+    "name": "White-Medina",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00692",
+    "name": "Atkinson LLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00693",
+    "name": "Thomas, Ford and Brown",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00694",
+    "name": "Faulkner-Grant",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00695",
+    "name": "Price LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00696",
+    "name": "Rivera Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00697",
+    "name": "Boone-Davis",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00698",
+    "name": "Calderon, Williams and Bennett",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00699",
+    "name": "Morrison, Russo and Lopez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00700",
+    "name": "Ramsey, Hansen and Mendoza",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00701",
+    "name": "Turner-Stout",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00702",
+    "name": "Giles Ltd",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00703",
+    "name": "Burgess Group",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00704",
+    "name": "Dominguez Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00705",
+    "name": "Sanders and Sons",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00706",
+    "name": "Morris, Campbell and Owens",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00707",
+    "name": "Howard, Green and Hunt",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00708",
+    "name": "Owens-Lang",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00709",
+    "name": "Harrison, Franco and Rocha",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00710",
+    "name": "Edwards-Williams",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00711",
+    "name": "Figueroa Inc",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00712",
+    "name": "Tran-Silva",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00713",
+    "name": "Butler, Hernandez and Rivera",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00714",
+    "name": "Hudson-Sanchez",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00715",
+    "name": "Pena, Cohen and Scott",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00716",
+    "name": "Levy-May",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00717",
+    "name": "Murray-Oconnor",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00718",
+    "name": "Jackson-Cortez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00719",
+    "name": "White-Preston",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00720",
+    "name": "Bernard, Warren and Combs",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00721",
+    "name": "Landry Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00722",
+    "name": "Duran Group",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00723",
+    "name": "Kirby and Sons",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00724",
+    "name": "Mann Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00725",
+    "name": "Wagner LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00726",
+    "name": "Williamson Ltd",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00727",
+    "name": "Durham, Hopkins and Smith",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00728",
+    "name": "Arnold, Smith and Moreno",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00729",
+    "name": "Nichols-Mitchell",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00730",
+    "name": "Li, Craig and Drake",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00731",
+    "name": "Rodriguez Inc",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00732",
+    "name": "Hernandez, Lee and Fox",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00733",
+    "name": "Adams-Sanders",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00734",
+    "name": "Chung-Stevens",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00735",
+    "name": "Branch and Sons",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00736",
+    "name": "Sutton-Abbott",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00737",
+    "name": "Frey, Santos and Johnson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00738",
+    "name": "Gray-Tran",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00739",
+    "name": "Walsh Ltd",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00740",
+    "name": "Miller Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00741",
+    "name": "Mueller, Knight and Hodge",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00742",
+    "name": "Jacobson Inc",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00743",
+    "name": "Lewis Ltd",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00744",
+    "name": "Alvarez, Williams and Jones",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00745",
+    "name": "Lam-Elliott",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00746",
+    "name": "White LLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00747",
+    "name": "Ali PLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00748",
+    "name": "Goodwin Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00749",
+    "name": "Hickman-Evans",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00750",
+    "name": "Allen, Davenport and Price",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00751",
+    "name": "Rivera, Campos and Taylor",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00752",
+    "name": "Ramsey, Mason and Mccann",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00753",
+    "name": "Davis and Sons",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00754",
+    "name": "Peterson PLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00755",
+    "name": "Sanders, Ayala and Johnson",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00756",
+    "name": "Bowers-Hayes",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00757",
+    "name": "Kelly Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00758",
+    "name": "Lopez-Willis",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00759",
+    "name": "Miller-Montgomery",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00760",
+    "name": "Marquez Inc",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00761",
+    "name": "Moore-Dawson",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00762",
+    "name": "Moore, Price and Ward",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00763",
+    "name": "Smith LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00764",
+    "name": "Ward-Nelson",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00765",
+    "name": "Miller Group",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00766",
+    "name": "Hawkins-Hunt",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00767",
+    "name": "Johnson LLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00768",
+    "name": "Davis, George and Nguyen",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00769",
+    "name": "Smith-Gutierrez",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00770",
+    "name": "Hardy PLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00771",
+    "name": "Armstrong and Sons",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00772",
+    "name": "James, Taylor and Turner",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00773",
+    "name": "Thomas-Jackson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00774",
+    "name": "Fisher-Washington",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00775",
+    "name": "Ward and Sons",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00776",
+    "name": "Weber, Wheeler and Gonzalez",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00777",
+    "name": "Taylor Inc",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00778",
+    "name": "Cook-Oliver",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00779",
+    "name": "Alexander-Jordan",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00780",
+    "name": "Mccann, Taylor and Flores",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00781",
+    "name": "Harris, Edwards and Oconnell",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00782",
+    "name": "Carter-Neal",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00783",
+    "name": "Faulkner-Casey",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00784",
+    "name": "Bennett-Velasquez",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00785",
+    "name": "Diaz-Frederick",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00786",
+    "name": "Vargas PLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00787",
+    "name": "Maldonado PLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00788",
+    "name": "Benton Group",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00789",
+    "name": "Clark, Salinas and Guerra",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00790",
+    "name": "Fuentes Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00791",
+    "name": "Porter, Schultz and Allen",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00792",
+    "name": "Moore, Henderson and Bennett",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00793",
+    "name": "Ewing-Mendoza",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00794",
+    "name": "Ferguson-Mclean",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00795",
+    "name": "Barnes, Johnson and Schmitt",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00796",
+    "name": "Woodard, Herrera and Little",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00797",
+    "name": "Rodriguez and Sons",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00798",
+    "name": "Ortega, Jackson and Salazar",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00799",
+    "name": "Terrell, Byrd and Ross",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00800",
+    "name": "Sheppard-Jordan",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00801",
+    "name": "Garcia and Sons",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00802",
+    "name": "Burgess, Grant and Watts",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00803",
+    "name": "Griffin Group",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00804",
+    "name": "Barton-Chapman",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00805",
+    "name": "Hernandez, Cuevas and Webb",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00806",
+    "name": "Perry-Nixon",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00807",
+    "name": "Guerra Ltd",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00808",
+    "name": "Bailey LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00809",
+    "name": "Mueller-Boyd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00810",
+    "name": "Alvarez-Kim",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00811",
+    "name": "Chavez, Jones and Williams",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00812",
+    "name": "Wilson, Sweeney and Wong",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00813",
+    "name": "Marsh, Spears and Yang",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00814",
+    "name": "Thompson, Moore and Castro",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00815",
+    "name": "Hall-Sullivan",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00816",
+    "name": "Lopez Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00817",
+    "name": "Foster-Mclaughlin",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00818",
+    "name": "Cole Group",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00819",
+    "name": "Smith-Lewis",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00820",
+    "name": "Goodwin-Stokes",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00821",
+    "name": "Ray PLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00822",
+    "name": "Diaz and Sons",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00823",
+    "name": "Wilson-Lambert",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00824",
+    "name": "Rose-Fowler",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00825",
+    "name": "Price, Long and Wilson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00826",
+    "name": "Bruce-Williamson",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00827",
+    "name": "Mccarthy, Evans and Mendez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00828",
+    "name": "Powers LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00829",
+    "name": "Allen Inc",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00830",
+    "name": "Brooks and Sons",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00831",
+    "name": "Price, Carlson and Andrews",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00832",
+    "name": "Lopez-Reid",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00833",
+    "name": "Ellison, Arias and Thompson",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00834",
+    "name": "Burns and Sons",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00835",
+    "name": "Edwards Group",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00836",
+    "name": "Brown, Howard and Smith",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00837",
+    "name": "Lee Group",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00838",
+    "name": "Wagner, Simpson and Cohen",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00839",
+    "name": "Mckinney-Wallace",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00840",
+    "name": "Miller Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00841",
+    "name": "Carter LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00842",
+    "name": "Medina and Sons",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00843",
+    "name": "Cunningham-Barton",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00844",
+    "name": "Dunn-Wilson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00845",
+    "name": "Adams PLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00846",
+    "name": "Weaver-Sherman",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00847",
+    "name": "Alexander, Robinson and Coleman",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00848",
+    "name": "Greer, Potter and Evans",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00849",
+    "name": "Cole LLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00850",
+    "name": "Gonzales Inc",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00851",
+    "name": "Clark Ltd",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00852",
+    "name": "Norris, Callahan and Bishop",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00853",
+    "name": "Martin-Taylor",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00854",
+    "name": "Li Inc",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00855",
+    "name": "Bell, Campbell and Ryan",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00856",
+    "name": "Werner-Carter",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00857",
+    "name": "Adams, Hodge and Duke",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00858",
+    "name": "Ochoa, Taylor and Brady",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00859",
+    "name": "Sellers-Riddle",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00860",
+    "name": "Martinez, Cline and Wright",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00861",
+    "name": "Morris, Wright and Bridges",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00862",
+    "name": "Burns-Ray",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00863",
+    "name": "Burton-Brooks",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00864",
+    "name": "Schultz Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00865",
+    "name": "Robertson-Ramirez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00866",
+    "name": "Gibson-Freeman",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00867",
+    "name": "Smith, Schroeder and Oconnor",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00868",
+    "name": "Stanton, Reid and Terry",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00869",
+    "name": "Flynn Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00870",
+    "name": "Donaldson and Sons",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00871",
+    "name": "Adams-Clayton",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00872",
+    "name": "Kelley-Anderson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00873",
+    "name": "Kramer-Shannon",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00874",
+    "name": "Williams Ltd",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00875",
+    "name": "Smith-Noble",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00876",
+    "name": "Alexander Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00877",
+    "name": "Harris-Barker",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00878",
+    "name": "Khan LLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00879",
+    "name": "Baxter LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00880",
+    "name": "Pena LLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00881",
+    "name": "Watson Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00882",
+    "name": "Williams Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00883",
+    "name": "Barber-Fischer",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00884",
+    "name": "Rios-Padilla",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00885",
+    "name": "Lewis Inc",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00886",
+    "name": "Wheeler PLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00887",
+    "name": "Wallace, Smith and Cooper",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00888",
+    "name": "Mcneil Group",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00889",
+    "name": "Anderson, Jones and Reyes",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00890",
+    "name": "Shaffer, Garcia and Richardson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00891",
+    "name": "Taylor-Ayala",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00892",
+    "name": "May Ltd",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00893",
+    "name": "Jones PLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00894",
+    "name": "Bishop and Sons",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00895",
+    "name": "Bell-Lewis",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00896",
+    "name": "Hernandez, Jenkins and Parks",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00897",
+    "name": "Miller Inc",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00898",
+    "name": "Goodwin PLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00899",
+    "name": "Cruz, Richmond and Edwards",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00900",
+    "name": "Wright Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00901",
+    "name": "Wright PLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00902",
+    "name": "Griffith, Mitchell and Pugh",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00903",
+    "name": "Abbott Ltd",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00904",
+    "name": "Harris-Lawson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00905",
+    "name": "Adkins LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00906",
+    "name": "Brown, Hurst and Blevins",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00907",
+    "name": "Cruz-Allen",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00908",
+    "name": "Wheeler, Rice and Levine",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00909",
+    "name": "Peck-Anderson",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00910",
+    "name": "Fisher, Payne and Thompson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00911",
+    "name": "Best-Townsend",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00912",
+    "name": "Matthews Inc",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00913",
+    "name": "Lewis-Livingston",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00914",
+    "name": "Hunter-Fuller",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00915",
+    "name": "Wang, Henderson and Morales",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00916",
+    "name": "Herrera, Jensen and Ramirez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00917",
+    "name": "Miller-Mccall",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00918",
+    "name": "Herrera Group",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00919",
+    "name": "Walters, Davenport and Becker",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00920",
+    "name": "Collins Group",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00921",
+    "name": "Ashley, Allen and Sanchez",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00922",
+    "name": "Wilson-Salazar",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00923",
+    "name": "Parker Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00924",
+    "name": "Yang, Wilson and Zimmerman",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00925",
+    "name": "Smith, Crawford and Reed",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00926",
+    "name": "Logan, Le and Jackson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00927",
+    "name": "Brady LLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00928",
+    "name": "Tanner, Wise and Johnson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00929",
+    "name": "Nelson-Brown",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00930",
+    "name": "Proctor, Burton and Crawford",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00931",
+    "name": "Ward, Porter and Bradley",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00932",
+    "name": "Moore-Ayala",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00933",
+    "name": "Craig, Wilson and Yang",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00934",
+    "name": "Williams Inc",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00935",
+    "name": "Williams LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00936",
+    "name": "Mora-White",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00937",
+    "name": "Tran Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00938",
+    "name": "Rios, Walker and Wright",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00939",
+    "name": "Flores, Mckenzie and Duncan",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00940",
+    "name": "Shaw Inc",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00941",
+    "name": "Walker PLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00942",
+    "name": "Finley Inc",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00943",
+    "name": "Cline-Ayala",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00944",
+    "name": "Murphy-Tran",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00945",
+    "name": "Wood LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00946",
+    "name": "Mueller, Stevenson and Sanchez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00947",
+    "name": "Vargas-Snyder",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00948",
+    "name": "Oconnor PLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00949",
+    "name": "Hernandez Group",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00950",
+    "name": "Hall LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00951",
+    "name": "Franco, Wiley and Tapia",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00952",
+    "name": "Blake Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00953",
+    "name": "Acosta, Garcia and Moreno",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00954",
+    "name": "Barnes Inc",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00955",
+    "name": "Dawson Inc",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00956",
+    "name": "Morse PLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00957",
+    "name": "Haynes-Watson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00958",
+    "name": "Miller, Davis and Anderson",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00959",
+    "name": "Jones-Bradley",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00960",
+    "name": "Bates-Anderson",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00961",
+    "name": "Green-Edwards",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00962",
+    "name": "Haynes-Moss",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00963",
+    "name": "Chavez-Hall",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00964",
+    "name": "Taylor PLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00965",
+    "name": "Moore and Sons",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00966",
+    "name": "Owens-Russell",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00967",
+    "name": "Howard, Townsend and Hayes",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00968",
+    "name": "Baker-Wilson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00969",
+    "name": "Aguirre LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00970",
+    "name": "Terry, Williams and Huff",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00971",
+    "name": "Hernandez-Dawson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00972",
+    "name": "Foster-Williams",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00973",
+    "name": "Green-Ewing",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00974",
+    "name": "Crane Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00975",
+    "name": "Adkins, Wright and Murray",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00976",
+    "name": "Martinez Inc",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00977",
+    "name": "Anderson Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00978",
+    "name": "Parks-Pace",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00979",
+    "name": "Aguilar LLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00980",
+    "name": "Johnson Inc",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00981",
+    "name": "Orr Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00982",
+    "name": "Davis LLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00983",
+    "name": "Williams Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00984",
+    "name": "Jackson PLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00985",
+    "name": "Underwood-Foster",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00986",
+    "name": "Reyes Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00987",
+    "name": "Gomez and Sons",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00988",
+    "name": "Ramirez-Stephenson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00989",
+    "name": "Mendez PLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00990",
+    "name": "Holland Group",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00991",
+    "name": "Andrade-Mendoza",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00992",
+    "name": "Ramirez and Sons",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00993",
+    "name": "Gonzalez-Wilkerson",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00994",
+    "name": "Wright, Mcknight and Stephens",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00995",
+    "name": "Mayo Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00996",
+    "name": "Castillo-Harrington",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-00997",
+    "name": "Durham-Shaw",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-00998",
+    "name": "Nelson-Johnson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-00999",
+    "name": "Robinson, Huang and Osborne",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01000",
+    "name": "Stokes Group",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01001",
+    "name": "Howard, Silva and Hall",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01002",
+    "name": "Garcia Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01003",
+    "name": "Adams Ltd",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01004",
+    "name": "Gallagher and Sons",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01005",
+    "name": "Bradford, Salinas and Kelly",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01006",
+    "name": "Thompson PLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01007",
+    "name": "Drake-Wolfe",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01008",
+    "name": "Johnson, Haynes and Meza",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01009",
+    "name": "Thomas, Vaughan and Copeland",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01010",
+    "name": "Weaver-Thompson",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01011",
+    "name": "Davis and Sons",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01012",
+    "name": "Robinson, Fox and Smith",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01013",
+    "name": "Harris, Anderson and Love",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01014",
+    "name": "Brown-Hernandez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01015",
+    "name": "Stark, Schroeder and Mathis",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01016",
+    "name": "Yu-Brooks",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01017",
+    "name": "Foster, Garcia and Turner",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01018",
+    "name": "Daugherty Ltd",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01019",
+    "name": "Conner-Yu",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01020",
+    "name": "Stewart, Mann and Hoffman",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01021",
+    "name": "Buchanan, Walker and Chapman",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01022",
+    "name": "Gray Ltd",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01023",
+    "name": "Phillips, Thompson and Smith",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01024",
+    "name": "Fry, Myers and Gamble",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01025",
+    "name": "Johnson, Guzman and Mccall",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01026",
+    "name": "Walker, Cunningham and Zuniga",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01027",
+    "name": "Rivera Inc",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01028",
+    "name": "Reed LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01029",
+    "name": "Fields Inc",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01030",
+    "name": "Santiago, Daniel and Rogers",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01031",
+    "name": "Baker and Sons",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01032",
+    "name": "Jones, Scott and Rodriguez",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01033",
+    "name": "Williams Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01034",
+    "name": "Barnes, Jackson and Gutierrez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01035",
+    "name": "Bell-Bennett",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01036",
+    "name": "Kramer-Lane",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01037",
+    "name": "Perez, Hayes and Lloyd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01038",
+    "name": "Phillips LLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01039",
+    "name": "Lynn-Jones",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01040",
+    "name": "Barron and Sons",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01041",
+    "name": "Jones, Mcmahon and Spence",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01042",
+    "name": "Wheeler-Austin",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01043",
+    "name": "Bush-Reynolds",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01044",
+    "name": "Martin, Preston and Moore",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01045",
+    "name": "Rivera and Sons",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01046",
+    "name": "Terry-Bowen",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01047",
+    "name": "Fernandez, Guerrero and Evans",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01048",
+    "name": "Williams PLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01049",
+    "name": "Larsen, Hernandez and Ward",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01050",
+    "name": "Miller-Colon",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01051",
+    "name": "Greene, Gonzalez and Johnson",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01052",
+    "name": "Little Inc",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01053",
+    "name": "Anthony-Parker",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01054",
+    "name": "Ruiz-Jacobson",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01055",
+    "name": "Davis-Stephens",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01056",
+    "name": "Watson Group",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01057",
+    "name": "Lopez-Williams",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01058",
+    "name": "Marshall-Perez",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01059",
+    "name": "Elliott-Hernandez",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01060",
+    "name": "Contreras, Miller and Cooper",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01061",
+    "name": "Gutierrez, Avila and Perez",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01062",
+    "name": "Randall PLC",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01063",
+    "name": "Sheppard-Mcdaniel",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01064",
+    "name": "Armstrong-Young",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01065",
+    "name": "Miller-Orr",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01066",
+    "name": "Johnson, Duncan and Black",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01067",
+    "name": "Byrd, Oliver and Martinez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01068",
+    "name": "Thompson-Joyce",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01069",
+    "name": "Stokes and Sons",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01070",
+    "name": "Henderson Ltd",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01071",
+    "name": "Harris-Carson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01072",
+    "name": "Flowers LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01073",
+    "name": "Bartlett-Sloan",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01074",
+    "name": "Miller PLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01075",
+    "name": "Arnold-Gates",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01076",
+    "name": "Ellis, Marks and Buchanan",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01077",
+    "name": "Matthews, Harrington and Rodriguez",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01078",
+    "name": "Hernandez PLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01079",
+    "name": "Chang, Ayers and Buckley",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01080",
+    "name": "Chan, Floyd and Dillon",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01081",
+    "name": "Humphrey-Baker",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01082",
+    "name": "Washington, Lynch and Johnson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01083",
+    "name": "Powell-Montgomery",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01084",
+    "name": "Steele, Williams and Preston",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01085",
+    "name": "Vaughn-Williams",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01086",
+    "name": "Mccall-Prince",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01087",
+    "name": "Morgan LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01088",
+    "name": "Ramirez-Vasquez",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01089",
+    "name": "Cohen, Compton and Perez",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01090",
+    "name": "Mccann-Ramos",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01091",
+    "name": "Adams-Butler",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01092",
+    "name": "Davis, Alexander and Mcintyre",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01093",
+    "name": "Figueroa-Malone",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01094",
+    "name": "Nicholson-Robertson",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01095",
+    "name": "Jones Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01096",
+    "name": "Powell, Deleon and Warren",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01097",
+    "name": "Johnson, Lee and Whitaker",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01098",
+    "name": "Wright Group",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01099",
+    "name": "Hull Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01100",
+    "name": "Hill Group",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01101",
+    "name": "Sanders, Leblanc and Maldonado",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01102",
+    "name": "Watson PLC",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01103",
+    "name": "Thompson-Harrell",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01104",
+    "name": "Arnold, Cooper and Monroe",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01105",
+    "name": "Curry-Barker",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01106",
+    "name": "Johnson-Williams",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01107",
+    "name": "Chan, Lewis and Walker",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01108",
+    "name": "Byrd LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01109",
+    "name": "Ortiz, Smith and Deleon",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01110",
+    "name": "Smith, Buck and Holland",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01111",
+    "name": "Owen, Walker and Franklin",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01112",
+    "name": "Marquez-Fletcher",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01113",
+    "name": "Coleman-Bennett",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01114",
+    "name": "Stevens-Robinson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01115",
+    "name": "Byrd-Holloway",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01116",
+    "name": "Silva-Smith",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01117",
+    "name": "Levy, Franco and Hoffman",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01118",
+    "name": "Lynch, Evans and Rodriguez",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01119",
+    "name": "Rogers LLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01120",
+    "name": "Nguyen, Hill and Douglas",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01121",
+    "name": "Evans, Hernandez and Cannon",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01122",
+    "name": "Trujillo PLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01123",
+    "name": "Guerrero-Becker",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01124",
+    "name": "Johnson, Jimenez and Phillips",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01125",
+    "name": "Sullivan-Doyle",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01126",
+    "name": "Erickson, Armstrong and Lee",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01127",
+    "name": "Reeves, Parks and Little",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01128",
+    "name": "Knox-Powers",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01129",
+    "name": "Evans, Jackson and Sandoval",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01130",
+    "name": "White, Davis and Anderson",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01131",
+    "name": "Hardy-Hansen",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01132",
+    "name": "Arroyo LLC",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01133",
+    "name": "Davis, Kelly and Garner",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01134",
+    "name": "Fisher-Eaton",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01135",
+    "name": "Green-Carter",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01136",
+    "name": "Ruiz Ltd",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01137",
+    "name": "Carpenter, Oliver and Kennedy",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01138",
+    "name": "Mason Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01139",
+    "name": "Moreno-Gutierrez",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01140",
+    "name": "Taylor and Sons",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01141",
+    "name": "Ortiz-Hudson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01142",
+    "name": "Thomas-Huffman",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01143",
+    "name": "Maxwell Group",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01144",
+    "name": "Welch-Thompson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01145",
+    "name": "Brown, Hayes and Clark",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01146",
+    "name": "Johnston and Sons",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01147",
+    "name": "Glover-Chan",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01148",
+    "name": "Mendez Ltd",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01149",
+    "name": "Powell-Sanford",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01150",
+    "name": "Smith-Ferguson",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01151",
+    "name": "Watson, Smith and Morris",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01152",
+    "name": "Lee, Rhodes and Sims",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01153",
+    "name": "Perez LLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01154",
+    "name": "Anderson-Reyes",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01155",
+    "name": "Torres, Brown and Williams",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01156",
+    "name": "Bryant-Meyer",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01157",
+    "name": "Morgan, Barron and Cowan",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01158",
+    "name": "Ferrell-Henry",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01159",
+    "name": "Martin Group",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01160",
+    "name": "Perez Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01161",
+    "name": "Clark Inc",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01162",
+    "name": "Wagner, Martinez and Dawson",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01163",
+    "name": "Brooks Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01164",
+    "name": "Wise-Dean",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01165",
+    "name": "Vang, Stanley and Valdez",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01166",
+    "name": "Williams Inc",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01167",
+    "name": "Wallace-Martinez",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01168",
+    "name": "Wells-Hernandez",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01169",
+    "name": "Jennings, Smith and Fisher",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01170",
+    "name": "Bates LLC",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01171",
+    "name": "Obrien, Taylor and Rivas",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01172",
+    "name": "Hunt PLC",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01173",
+    "name": "Campbell Inc",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01174",
+    "name": "Gonzalez-Gonzalez",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01175",
+    "name": "Decker-Dudley",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01176",
+    "name": "Warner-Phillips",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01177",
+    "name": "Kelley and Sons",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01178",
+    "name": "Fitzpatrick, Rivera and Smith",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01179",
+    "name": "Davis, Rodriguez and Andrews",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01180",
+    "name": "Hernandez-Davis",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01181",
+    "name": "Jones, Cummings and Conway",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01182",
+    "name": "Hall, Hinton and Phillips",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01183",
+    "name": "Williams-Li",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01184",
+    "name": "Phelps LLC",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01185",
+    "name": "Edwards, Rodgers and Davis",
+    "country": "CA",
+    "industry": "CHEMICALS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01186",
+    "name": "Smith and Sons",
+    "country": "CA",
+    "industry": "AUTO_PARTS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01187",
+    "name": "Holland, Murphy and Kline",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01188",
+    "name": "Adams, Quinn and Watson",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01189",
+    "name": "White-Morales",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01190",
+    "name": "Nelson-Cruz",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01191",
+    "name": "Marsh-Banks",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01192",
+    "name": "Wilson Ltd",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01193",
+    "name": "Brown, Dunlap and Moore",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01194",
+    "name": "Pruitt-Webb",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "LOW"
+  },
+  {
+    "customer_id": "CUST-01195",
+    "name": "Gregory, White and James",
+    "country": "CA",
+    "industry": "AGRICULTURE",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01196",
+    "name": "Carr-Huffman",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01197",
+    "name": "Mcpherson, Anderson and Knapp",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01198",
+    "name": "Clay Group",
+    "country": "CA",
+    "industry": "INDUSTRIAL_EQUIPMENT",
+    "risk_rating": "MEDIUM"
+  },
+  {
+    "customer_id": "CUST-01199",
+    "name": "Brown Ltd",
+    "country": "CA",
+    "industry": "ELECTRONICS",
+    "risk_rating": "HIGH"
+  },
+  {
+    "customer_id": "CUST-01200",
+    "name": "Smith-Oneill",
+    "country": "CA",
+    "industry": "TEXTILES",
+    "risk_rating": "MEDIUM"
+  }
+]

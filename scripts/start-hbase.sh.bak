@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e
+/opt/bigdata/bin/wait-for.sh namenode 9000 namenode-rpc
+/opt/bigdata/bin/wait-for.sh zookeeper 2181 zookeeper
+hdfs dfs -mkdir -p /hbase || true
+hdfs dfs -chmod 777 /hbase || true
+/opt/hbase/bin/hbase-daemon.sh start master
+/opt/hbase/bin/hbase-daemon.sh start regionserver
+tail -f /opt/hbase/logs/*

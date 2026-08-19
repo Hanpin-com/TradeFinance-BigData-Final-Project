@@ -1,0 +1,614 @@
+name: big_data
+services:
+  namenode:
+    build:
+      context: .
+      dockerfile: docker/hadoop/Dockerfile
+    image: big_data-namenode:local
+    container_name: namenode
+    hostname: namenode
+    environment:
+      HADOOP_ROLE: namenode
+    ports:
+    - 9870:9870
+    - 9000:9000
+    volumes:
+    - namenode-data:/hadoop/dfs/name
+    networks:
+    - bigdata
+    healthcheck:
+     test: ["CMD-SHELL", "hdfs dfsadmin -safemode get 2>/dev/null | grep -q 'Safe mode is OFF'"]
+     interval: 15s
+     timeout: 10s
+     retries: 30
+     start_period: 30s
+  datanode:
+    build:
+      context: .
+      dockerfile: docker/hadoop/Dockerfile
+    image: big_data-datanode:local
+    container_name: datanode
+    hostname: datanode
+    environment:
+      HADOOP_ROLE: datanode
+    depends_on:
+      namenode:
+        condition: service_healthy
+    ports:
+    - 9864:9864
+    volumes:
+    - datanode-data:/hadoop/dfs/data
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - curl -fs http://localhost:9864/ >/dev/null || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
+  resourcemanager:
+    build:
+      context: .
+      dockerfile: docker/hadoop/Dockerfile
+    image: big_data-resourcemanager:local
+    container_name: resourcemanager
+    hostname: resourcemanager
+    environment:
+      HADOOP_ROLE: resourcemanager
+    depends_on:
+      namenode:
+        condition: service_healthy
+      datanode:
+        condition: service_started
+    ports:
+    - 8088:8088
+    - 8032:8032
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - curl -fs http://localhost:8088/ws/v1/cluster/info >/dev/null || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
+  nodemanager:
+    build:
+      context: .
+      dockerfile: docker/hadoop/Dockerfile
+    image: big_data-nodemanager:local
+    container_name: nodemanager
+    hostname: nodemanager
+    environment:
+      HADOOP_ROLE: nodemanager
+    depends_on:
+      resourcemanager:
+        condition: service_healthy
+    ports:
+    - 8042:8042
+    volumes:
+    - nodemanager-local:/hadoop/yarn/local
+    - nodemanager-log:/hadoop/yarn/log
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - curl -fs http://localhost:8042/ws/v1/node/info >/dev/null || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
+  historyserver:
+    build:
+      context: .
+      dockerfile: docker/hadoop/Dockerfile
+    image: big_data-historyserver:local
+    container_name: historyserver
+    hostname: historyserver
+    environment:
+      HADOOP_ROLE: historyserver
+    depends_on:
+      namenode:
+        condition: service_healthy
+      resourcemanager:
+        condition: service_healthy
+    ports:
+    - 19888:19888
+    - 10020:10020
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - curl -fs http://localhost:19888/ >/dev/null || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 30
+      start_period: 45s
+  zookeeper:
+    image: zookeeper:3.9
+    container_name: zookeeper
+    hostname: zookeeper
+    restart: unless-stopped
+    ports:
+    - 2181:2181
+    environment:
+      ZOO_MY_ID: 1
+    volumes:
+    - zookeeper-data:/data
+    - zookeeper-log:/datalog
+    networks:
+    - bigdata
+    healthcheck:
+     test: ["CMD-SHELL", "echo srvr | nc -w 2 localhost 2181 | grep -q 'Zookeeper version'"]
+     interval: 20s
+     timeout: 10s
+     retries: 20
+     start_period: 20s
+  kafka:
+    image: apache/kafka:4.0.0
+    container_name: kafka
+    hostname: kafka
+    restart: unless-stopped
+    ports:
+    - 9092:9092
+    environment:
+      KAFKA_NODE_ID: 1
+      KAFKA_PROCESS_ROLES: broker,controller
+      KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
+      KAFKA_LISTENERS: PLAINTEXT://:9092,CONTROLLER://:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,CONTROLLER:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'true'
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_OFFSETS_COMMIT_TIMEOUT_MS: 30000
+      KAFKA_LOG_DIRS: /var/lib/kafka/data
+
+    volumes:
+    - kafka-data:/var/lib/kafka/data
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list >/dev/null 2>&1 || exit 1
+      interval: 20s
+      timeout: 10s
+      retries: 30
+      start_period: 30s
+  hive-metastore-postgresql:
+    image: postgres:16
+    container_name: hive-metastore-postgresql
+    hostname: hive-metastore-postgresql
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: metastore
+      POSTGRES_USER: hive
+      POSTGRES_PASSWORD: hive
+    ports:
+    - 5432:5432
+    volumes:
+    - postgres-data:/var/lib/postgresql/data
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - pg_isready -U hive -d metastore
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+  hive-metastore:
+    build:
+      context: .
+      dockerfile: docker/hive/Dockerfile
+    image: big_data-hive-metastore:local
+    container_name: hive-metastore
+    hostname: hive-metastore
+    environment:
+      HIVE_ROLE: metastore
+    depends_on:
+      namenode:
+        condition: service_healthy
+      hive-metastore-postgresql:
+        condition: service_healthy
+    ports:
+    - 9083:9083
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - nc -z localhost 9083 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 40
+      start_period: 90s
+  hive-server:
+    build:
+      context: .
+      dockerfile: docker/hive/Dockerfile
+    image: big_data-hive-server:local
+    container_name: hive-server
+    hostname: hive-server
+    environment:
+      HIVE_ROLE: server2
+    depends_on:
+      hive-metastore:
+        condition: service_healthy
+    ports:
+    - 10000:10000
+    - 10002:10002
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - nc -z localhost 10000 || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 40
+      start_period: 90s
+  spark-master:
+    build:
+      context: .
+      dockerfile: docker/spark/Dockerfile
+    image: big_data-spark-master:local
+    container_name: spark-master
+    hostname: spark-master
+    environment:
+      SPARK_ROLE: master
+    depends_on:
+      namenode:
+        condition: service_healthy
+    ports:
+    - 7077:7077
+    - 8080:8080
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - curl -fs http://localhost:8080/ >/dev/null || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 30
+      start_period: 45s
+  spark-worker:
+    build:
+      context: .
+      dockerfile: docker/spark/Dockerfile
+    image: big_data-spark-worker:local
+    container_name: spark-worker
+    hostname: spark-worker
+    environment:
+      SPARK_ROLE: worker
+    depends_on:
+      spark-master:
+        condition: service_healthy
+    ports:
+    - 8081:8081
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - curl -fs http://localhost:8081/ >/dev/null || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 30
+      start_period: 45s
+  spark-history:
+    build:
+      context: .
+      dockerfile: docker/spark/Dockerfile
+    image: big_data-spark-history:local
+    container_name: spark-history
+    hostname: spark-history
+    environment:
+      SPARK_ROLE: history
+    depends_on:
+      namenode:
+        condition: service_healthy
+    ports:
+    - 18080:18080
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - curl -fs http://localhost:18080/ >/dev/null || exit 1
+      interval: 15s
+      timeout: 5s
+      retries: 30
+      start_period: 60s
+  pig:
+    build:
+      context: .
+      dockerfile: docker/pig/Dockerfile
+    image: big_data-pig:local
+    container_name: pig
+    hostname: pig
+    depends_on:
+      namenode:
+        condition: service_healthy
+      resourcemanager:
+        condition: service_healthy
+    networks:
+    - bigdata
+    command:
+    - tail
+    - -f
+    - /dev/null
+  sqoop:
+    build:
+      context: .
+      dockerfile: docker/sqoop/Dockerfile
+    image: big_data-sqoop:local
+    container_name: sqoop
+    hostname: sqoop
+    depends_on:
+      namenode:
+        condition: service_healthy
+      hive-server:
+        condition: service_healthy
+      hive-metastore-postgresql:
+        condition: service_healthy
+    networks:
+    - bigdata
+    command:
+    - tail
+    - -f
+    - /dev/null
+  hbase:
+    build:
+      context: .
+      dockerfile: docker/hbase/Dockerfile
+    image: big_data-hbase:local
+    container_name: hbase
+    hostname: hbase
+    depends_on:
+      namenode:
+        condition: service_healthy
+      zookeeper:
+        condition: service_healthy
+    ports:
+    - 16000:16000
+    - 16010:16010
+    - 16020:16020
+    - 16030:16030
+    - 9090:9090
+    networks:
+    - bigdata
+    healthcheck:
+     test:
+      [
+        "CMD-SHELL",
+        "python3 -c \"import socket; s=socket.create_connection(('localhost',9090),5); s.close()\" || exit 1"
+      ]
+     interval: 20s
+     timeout: 10s
+     retries: 20
+     start_period: 60s
+  zeppelin:
+    build:
+      context: .
+      dockerfile: docker/zeppelin/Dockerfile
+    image: big_data-zeppelin:local
+    container_name: zeppelin
+    hostname: zeppelin
+    restart: unless-stopped
+    depends_on:
+      namenode:
+        condition: service_healthy
+      resourcemanager:
+        condition: service_healthy
+      hive-server:
+        condition: service_healthy
+      spark-master:
+        condition: service_healthy
+    environment:
+      JAVA_HOME: /opt/java/openjdk
+      HADOOP_HOME: /opt/hadoop
+      HADOOP_CONF_DIR: /opt/hadoop/etc/hadoop
+      SPARK_HOME: /opt/spark
+      SPARK_MASTER: spark://spark-master:7077
+      ZEPPELIN_ADDR: 0.0.0.0
+      ZEPPELIN_PORT: 8080
+    ports:
+    - 8888:8080
+    volumes:
+    - zeppelin-notebook:/opt/zeppelin/notebook
+    - zeppelin-logs:/opt/zeppelin/logs
+    - ./data/:/opt/data
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - curl -fs http://localhost:8080/ >/dev/null 2>&1 || exit 1
+      interval: 15s
+      timeout: 10s
+      retries: 40
+      start_period: 90s
+  validator:
+    build:
+      context: .
+      dockerfile: docker/validator/Dockerfile
+    image: big_data-validator:local
+    container_name: validator
+    profiles:
+    - tools
+    depends_on:
+      namenode:
+        condition: service_healthy
+      resourcemanager:
+        condition: service_healthy
+      spark-master:
+        condition: service_healthy
+      hive-server:
+        condition: service_healthy
+      hbase:
+        condition: service_healthy
+    networks:
+    - bigdata
+  sqlserver:
+    build:
+      context: ./sqlserver
+      dockerfile: Dockerfile
+    container_name: sqlserver
+    hostname: sqlserver
+    restart: unless-stopped
+    environment:
+      ACCEPT_EULA: Y
+      MSSQL_PID: Developer
+      MSSQL_SA_PASSWORD: Test123!@#
+    ports:
+    - 1433:1433
+    volumes:
+    - sqlserver-data:/var/opt/mssql
+    - ./sql/SqoopAssignment:/sql:ro
+    - ./data:/data:ro
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P $$MSSQL_SA_PASSWORD -C -Q "SELECT 1" || exit 1
+      interval: 15s
+      timeout: 10s
+      retries: 30
+    networks:
+    - bigdata
+  tf-data-generator:
+    build:
+      context: .
+      dockerfile: docker/trade-finance/Dockerfile
+    container_name: tf-data-generator
+    command:
+    - python
+    - -m
+    - trade_finance.data_generator.app
+    environment:
+      OUTPUT_DIR: /data/trade-finance
+      TF_TRANSACTION_COUNT: '5000'
+      TF_RANDOM_SEED: '42'
+    volumes:
+    - ./data/trade-finance:/data/trade-finance
+    networks:
+    - bigdata
+  tf-event-producer:
+    build:
+      context: .
+      dockerfile: docker/trade-finance/Dockerfile
+    container_name: tf-event-producer
+    command:
+    - python
+    - -m
+    - trade_finance.event_producer.app
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      TF_EVENTS_FILE: /data/trade-finance/events.jsonl
+      TF_PRODUCER_DELAY_MS: '0'
+    volumes:
+    - ./data/trade-finance:/data/trade-finance:ro
+    depends_on:
+      tf-data-generator:
+        condition: service_completed_successfully
+      kafka:
+        condition: service_healthy
+    networks:
+    - bigdata
+  tf-hbase-consumer:
+    build:
+      context: .
+      dockerfile: docker/trade-finance/Dockerfile
+    container_name: tf-hbase-consumer
+    command:
+    - python
+    - -m
+    - trade_finance.hbase_consumer.app
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      HBASE_HOST: hbase
+      HBASE_PORT: '9090'
+      HIVE_HOST: hive-server
+      HIVE_PORT: '10000'
+      AUTO_CREATE_HBASE_SCHEMA: 'true'
+      AUTO_CREATE_HIVE_SCHEMA: 'true'
+      HIVE_SCHEMA_FILE: /app/sql/TradeFinance/01-hive-schema.sql
+    depends_on:
+      kafka:
+        condition: service_healthy
+      hbase:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+    - bigdata
+    volumes:
+    - ./sql/TradeFinance:/app/sql/TradeFinance:ro
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - python -c "import os; print('ok')" >/dev/null 2>&1 || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+  tf-ml-worker:
+    build:
+      context: .
+      dockerfile: docker/trade-finance/Dockerfile
+    container_name: tf-ml-worker
+    command:
+    - python
+    - -m
+    - trade_finance.ml_worker.app
+    environment:
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      HBASE_HOST: hbase
+      HBASE_PORT: '9090'
+      HIVE_HOST: hive-server
+      HIVE_PORT: '10000'
+      ML_RUN_INTERVAL_SECONDS: '60'
+      MIN_TRAINING_ROWS: '100'
+      PUBLISH_ML_EVENTS: 'true'
+    depends_on:
+      hbase:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+    - bigdata
+    healthcheck:
+      test:
+      - CMD-SHELL
+      - python -c "import os; print('ok')" >/dev/null 2>&1 || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+networks:
+  bigdata:
+    name: bigdata
+    driver: bridge
+volumes:
+  namenode-data: null
+  datanode-data: null
+  nodemanager-local: null
+  nodemanager-log: null
+  zookeeper-data: null
+  zookeeper-log: null
+  kafka-data: null
+  postgres-data: null
+  zeppelin-notebook: null
+  zeppelin-logs: null
+  sqlserver-data: null
