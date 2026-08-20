@@ -1,0 +1,40 @@
+{
+  "dataset_rows": 5000,
+  "anomaly_high_count": 250,
+  "anomaly_high_pct": 5.0,
+  "discrepancy_model": {
+    "accuracy": 0.576,
+    "precision": 0.3525,
+    "recall": 0.7922,
+    "f1": 0.4879,
+    "roc_auc": 0.6788,
+    "decision_threshold": 0.34,
+    "test_rows": 1000
+  },
+  "delay_model": {
+    "accuracy": 0.6784,
+    "precision": 0.664,
+    "recall": 0.6772,
+    "f1": 0.6705,
+    "roc_auc": 0.734,
+    "classification_test_rows": 1250,
+    "processing_days_mae": 3.2296
+  },
+  "powerbi_high_risk_count": 514,
+  "powerbi_medium_risk_count": 2617,
+  "powerbi_low_risk_count": 1869,
+  "forecast": [
+    {
+      "forecast_month": "2026-09",
+      "predicted_transactions": 176.34
+    },
+    {
+      "forecast_month": "2026-10",
+      "predicted_transactions": 169.77
+    },
+    {
+      "forecast_month": "2026-11",
+      "predicted_transactions": 163.21
+    }
+  ]
+}
