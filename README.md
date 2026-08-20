@@ -42,6 +42,22 @@ No HBase initialization container is required.
 `tf-hbase-consumer` attempts to apply `sql/TradeFinance/01-hive-schema.sql` through the existing HiveServer2.
 If the existing Hive image does not expose the HBaseStorageHandler dependencies correctly, the same SQL file can be executed manually inside `hive-server` for diagnosis.
 
+## Member 2 batch and historical analytics
+The Member 2 implementation adds a Hadoop Streaming transaction aggregation,
+Hive-to-HBase historical analytical views, CAD-normalized exposure reporting,
+and an HBase PUT/GET/SCAN demonstration.
+
+Run each part from the repository root after the required containers are healthy:
+
+```bash
+bash scripts/trade-finance/run-mapreduce.sh
+bash scripts/trade-finance/run-hive-analytics.sh
+bash scripts/trade-finance/hbase-operations.sh
+```
+
+Implementation details and row-key justification are in
+`docs/member2-hive-hbase.md`.
+
 ## ML models implemented
 1. Transaction anomaly detection - Isolation Forest
 2. Documentary discrepancy prediction - Random Forest classification
