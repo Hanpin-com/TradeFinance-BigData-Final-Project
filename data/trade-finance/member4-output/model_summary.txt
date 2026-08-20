@@ -1,0 +1,30 @@
+MEMBER 4 - MACHINE LEARNING SUMMARY
+===================================
+Transactions analyzed: 5,000
+High anomalies: 250 (5.00%)
+
+Document discrepancy model (held-out test set):
+  Accuracy : 0.5760
+  Precision: 0.3525
+  Recall   : 0.7922
+  F1       : 0.4879
+  ROC-AUC  : 0.6788
+  Threshold: 0.34
+
+Processing-delay model (held-out test set):
+  Accuracy : 0.6784
+  Precision: 0.6640
+  Recall   : 0.6772
+  F1       : 0.6705
+  ROC-AUC  : 0.7340
+  Processing-days MAE: 3.23 days
+
+Power BI management risk distribution:
+  HIGH  : 514
+  MEDIUM: 2,617
+  LOW   : 1,869
+
+3-month transaction-volume forecast:
+  2026-09: 176.34 transactions
+  2026-10: 169.77 transactions
+  2026-11: 163.21 transactions
