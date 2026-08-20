@@ -2,31 +2,31 @@
 
 **Project:** Trade Finance Intelligence and Risk Management  
 **Role:** Member 3 – Real-Time Big Data Engineering  
-**Developed by:** Han-Pin, Hung  
+**Developed by:** Han-Pin Hung  
 
 ---
 
-## Overview
+# Overview
 
-This module implements the **real-time Big Data Engineering component** of the Trade Finance Intelligence and Risk Management platform.
+This module implements the **real-time Big Data Engineering layer** of the Trade Finance Intelligence and Risk Management platform.
 
-The solution uses **Apache Kafka** and **Apache Spark Structured Streaming** to process Trade Finance lifecycle events, perform real-time business analytics, and generate rule-based risk alerts.
+The solution uses **Apache Kafka** and **Apache Spark Structured Streaming** to process Trade Finance lifecycle events, generate real-time business analytics, and identify high-risk transactions.
 
 The main responsibilities of this module are:
 
 - Kafka event ingestion
+- Multi-topic event streaming
 - Spark Structured Streaming
 - JSON parsing and validation
-- Multi-topic Trade Finance event processing
-- Real-time transaction analytics
+- Transaction-level field extraction
 - Transaction deduplication
-- Currency exposure monitoring
-- Real-time risk scoring
+- Real-time currency exposure analytics
+- Rule-based risk scoring
 - High-risk transaction alerts
 
 ---
 
-## Real-Time Data Pipeline
+# Real-Time Architecture
 
 ```text
 Trade Finance Data Generator
@@ -43,69 +43,58 @@ Spark Structured Streaming
         +--------------------------+
         |                          |
         v                          v
-Structured Event Processing   Real-Time Analytics
+Structured Events          Real-Time Analytics
                                    |
                                    v
                             Risk Scoring Engine
                                    |
                                    v
-                            HIGH-RISK ALERTS
+                           HIGH-RISK ALERTS
 ```
+
+The real-time pipeline transforms raw Trade Finance lifecycle events into structured business information and actionable risk alerts.
 
 ---
 
-## Module Structure
+# Module Structure
 
 ```text
 structured_streaming/
 ├── trade_finance_streaming.py
 ├── trade_finance_analytics.py
 ├── trade_finance_risk_alerts.py
+├── screenshots/
+│   ├── 01_Kafka_Ingestion.png
+│   ├── 02_Spark_Structured_Streaming.png
+│   ├── 03_Real_Time_Trade_Finance_Analytics.png
+│   └── 04_Real_Time_Risk_Alerts.png
 └── README.md
 ```
 
 ---
 
-# 1. Kafka Ingestion and Structured Streaming
+# 1. Kafka Event Ingestion
 
-## File
-
-```text
-trade_finance_streaming.py
-```
-
-This application consumes Trade Finance lifecycle events from Kafka using **Spark Structured Streaming**.
-
-### Main Functions
-
-- Connects Spark Structured Streaming to Kafka
-- Subscribes to multiple Trade Finance Kafka topics
-- Converts Kafka binary values into JSON strings
-- Parses JSON using a defined Spark schema
-- Performs basic record validation
-- Extracts important business fields
-- Displays structured Trade Finance events in real time
-
-### Business Fields Extracted
+Trade Finance transactions generate multiple lifecycle events.
 
 Examples include:
 
-- Transaction ID
-- Event type
-- Product type
-- Applicant country
-- Beneficiary country
-- Currency
-- Transaction amount
-- Customer risk rating
-- Discrepancy flag
-- Delay flag
+```text
+LC_APPLICATION_RECEIVED
+GUARANTEE_APPLICATION_RECEIVED
+COLLECTION_RECEIVED
+PAYMENT_AUTHORIZED
+DOCUMENT_PRESENTED
+SHIPMENT_RECORDED
+COMPLIANCE_SCREENING_COMPLETED
+SANCTIONS_SCREENING_COMPLETED
+LIMIT_CHECK_COMPLETED
+FX_RATE_UPDATED
+```
 
----
+These events are published to Kafka and separated into business-specific topics.
 
 ## Kafka Topics
-
-The streaming application processes the following Trade Finance topics:
 
 ```text
 tf.lc.events
@@ -120,19 +109,100 @@ tf.limit.events
 tf.fx.events
 ```
 
-Machine Learning result topics are handled separately and are not part of this Member 3 streaming pipeline.
+The event producer successfully published:
+
+```text
+76,628 Trade Finance lifecycle events
+```
+
+across the Trade Finance Kafka topics.
 
 ---
 
-# 2. Real-Time Trade Finance Analytics
+## Demonstration Evidence – Kafka Ingestion
 
-## File
+![Kafka Ingestion](screenshots/01_Kafka_Ingestion.png)
+
+**Figure 1. Kafka Trade Finance Event Ingestion**
+
+The Kafka producer successfully publishes Trade Finance lifecycle events across multiple business topics, providing the event source for the real-time processing pipeline.
+
+---
+
+# 2. Spark Structured Streaming
+
+## Application
+
+```text
+trade_finance_streaming.py
+```
+
+Apache Spark Structured Streaming consumes Trade Finance events directly from Kafka.
+
+The application performs the following steps:
+
+```text
+Kafka Event
+    ↓
+Read Kafka Message
+    ↓
+Convert Binary Value to String
+    ↓
+Parse JSON
+    ↓
+Validate Event
+    ↓
+Extract Business Fields
+    ↓
+Structured Trade Finance Record
+```
+
+The Spark application subscribes to the Trade Finance topics using a topic pattern and continuously processes arriving events.
+
+---
+
+## Extracted Business Fields
+
+The application extracts fields including:
+
+- Transaction ID
+- Event type
+- Product type
+- Applicant country
+- Beneficiary country
+- Currency
+- Transaction amount
+- Customer risk rating
+- Discrepancy flag
+- Delay flag
+
+These fields provide the structured data required for downstream analytics and risk monitoring.
+
+---
+
+## Demonstration Evidence – Structured Streaming
+
+![Spark Structured Streaming](screenshots/02_Spark_Structured_Streaming.png)
+
+**Figure 2. Kafka to Spark Structured Streaming**
+
+Spark Structured Streaming consumes events from multiple Kafka topics, parses the JSON payloads, and transforms the incoming messages into structured Trade Finance business records.
+
+---
+
+# 3. Real-Time Trade Finance Analytics
+
+## Application
 
 ```text
 trade_finance_analytics.py
 ```
 
-The analytics application transforms incoming Trade Finance events into real-time business KPIs.
+The second streaming application transforms incoming Trade Finance records into real-time management-level KPIs.
+
+---
+
+## Transaction Deduplication
 
 A single Trade Finance transaction can generate multiple lifecycle events.
 
@@ -140,21 +210,23 @@ For example:
 
 ```text
 LC_APPLICATION_RECEIVED
-        |
+        ↓
 LIMIT_CHECK_COMPLETED
-        |
+        ↓
 COMPLIANCE_SCREENING_COMPLETED
-        |
+        ↓
 SANCTIONS_SCREENING_COMPLETED
-        |
-LC_ISSUED
-        |
+        ↓
+DOCUMENT_PRESENTED
+        ↓
 PAYMENT_AUTHORIZED
 ```
 
-These events may contain the same transaction amount.
+These lifecycle events may contain the same transaction amount.
 
-Therefore, the application removes duplicate lifecycle records using:
+If every event were included in the financial aggregation, the same transaction could be counted multiple times.
+
+Therefore, the analytics application performs transaction-level deduplication using:
 
 ```text
 transaction_id
@@ -162,26 +234,26 @@ transaction_id
 
 before calculating transaction-level KPIs.
 
-This prevents the same financial transaction from being counted multiple times.
+This prevents duplicated lifecycle events from overstating transaction volume and financial exposure.
 
 ---
 
-## Real-Time KPIs
+# Real-Time KPIs
 
-The application calculates:
+The analytics application calculates:
 
 - Unique transaction count
 - Total transaction value
 - Average transaction value
 - High-risk transaction count
-- Discrepancy transaction count
+- Document discrepancy transaction count
 - Delayed transaction count
 
 ---
 
-## Currency Exposure Monitoring
+# Currency Exposure Monitoring
 
-Trade Finance transactions can use different currencies, including:
+Trade Finance transactions are denominated in multiple currencies, including:
 
 ```text
 CAD
@@ -192,42 +264,51 @@ JPY
 USD
 ```
 
-Transaction values are therefore analyzed separately by currency.
+Different currencies should not be directly combined into a single transaction-value total without currency conversion.
 
-This avoids incorrectly combining values from different currencies into one financial total.
+Therefore, the real-time analytics application groups transactions by currency.
 
-Example output:
+The output provides:
 
 ```text
-+--------+-------------------+-----------+---------------------+----------------------+------------------------+--------------------+
-|currency|unique_transactions|total_value|avg_transaction_value|high_risk_transactions|discrepancy_transactions|delayed_transactions|
-+--------+-------------------+-----------+---------------------+----------------------+------------------------+--------------------+
-|CAD     |...                |...        |...                  |...                   |...                     |...                 |
-|CNY     |...                |...        |...                  |...                   |...                     |...                 |
-|EUR     |...                |...        |...                  |...                   |...                     |...                 |
-|GBP     |...                |...        |...                  |...                   |...                     |...                 |
-|JPY     |...                |...        |...                  |...                   |...                     |...                 |
-|USD     |...                |...        |...                  |...                   |...                     |...                 |
-+--------+-------------------+-----------+---------------------+----------------------+------------------------+--------------------+
+currency
+unique_transactions
+total_value
+avg_transaction_value
+high_risk_transactions
+discrepancy_transactions
+delayed_transactions
 ```
+
+This provides a simple real-time view of Trade Finance exposure and operational risk by currency.
 
 ---
 
-# 3. Real-Time Risk Detection and Alerts
+## Demonstration Evidence – Real-Time Analytics
 
-## File
+![Real-Time Trade Finance Analytics](screenshots/03_Real_Time_Trade_Finance_Analytics.png)
+
+**Figure 3. Real-Time Trade Finance Currency Exposure Analytics**
+
+Spark Structured Streaming aggregates unique Trade Finance transactions by currency and continuously monitors transaction volume, transaction value, high-risk activity, document discrepancies, and processing delays.
+
+---
+
+# 4. Real-Time Risk Detection and Alerts
+
+## Application
 
 ```text
 trade_finance_risk_alerts.py
 ```
 
-This application implements a transparent **rule-based risk detection engine**.
+The final Member 3 application implements a transparent **rule-based real-time risk engine**.
 
-It evaluates incoming Trade Finance transactions and assigns a risk score based on transaction characteristics.
+Each unique Trade Finance transaction is evaluated using several risk indicators.
 
 ---
 
-## Risk Scoring Rules
+# Risk Scoring Rules
 
 | Risk Factor | Score |
 |---|---:|
@@ -238,7 +319,7 @@ It evaluates incoming Trade Finance transactions and assigns a risk score based 
 
 ---
 
-## Risk Classification
+# Risk Classification
 
 | Risk Score | Risk Level |
 |---:|---|
@@ -246,19 +327,19 @@ It evaluates incoming Trade Finance transactions and assigns a risk score based 
 | 3–4 | MEDIUM |
 | 5+ | HIGH |
 
-Only transactions classified as:
+Transactions classified as:
 
 ```text
 HIGH
 ```
 
-are displayed in the real-time alert stream.
+are immediately displayed in the real-time alert stream.
 
 ---
 
-## Risk Alert Fields
+# Risk Alert Output
 
-Each alert contains:
+Each high-risk alert includes:
 
 - Transaction ID
 - Product type
@@ -272,26 +353,74 @@ Each alert contains:
 Example:
 
 ```text
-Transaction ID: TF-2026-0004593
-Product Type: EXPORT_LC
-Currency: EUR
-Risk Score: 9
-Risk Level: HIGH
+Transaction ID:
+TF-2026-0004593
 
-Risk Reason:
-High-risk customer;
-Document discrepancy;
-Processing delay;
+Product:
+EXPORT_LC
+
+Risk Score:
+9
+
+Risk Level:
+HIGH
+
+Risk Reasons:
+High-risk customer
+Document discrepancy
+Processing delay
 Large transaction >= 1M
 ```
 
-This allows risk analysts to understand not only that a transaction is high risk, but also **why the alert was generated**.
+The human-readable `risk_reason` field provides explainability and allows users to understand why an alert was generated.
+
+---
+
+## Demonstration Evidence – Risk Alerts
+
+![Real-Time Risk Alerts](screenshots/04_Real_Time_Risk_Alerts.png)
+
+**Figure 4. Real-Time Trade Finance Risk Detection and Alerts**
+
+Spark Structured Streaming applies rule-based risk scoring to Trade Finance transactions and generates high-risk alerts based on customer risk, document discrepancies, processing delays, and large transaction values.
+
+---
+
+# 5. End-to-End Member 3 Pipeline
+
+The complete Member 3 workflow is:
+
+```text
+Trade Finance Events
+        ↓
+Kafka Producer
+        ↓
+Kafka Topics
+        ↓
+Spark Structured Streaming
+        ↓
+JSON Parsing
+        ↓
+Data Validation
+        ↓
+Structured Transaction Fields
+        ↓
+Transaction Deduplication
+        ↓
+Real-Time Analytics
+        ↓
+Risk Scoring
+        ↓
+HIGH-RISK ALERTS
+```
+
+This demonstrates a complete real-time data engineering pipeline rather than isolated processing tasks.
 
 ---
 
 # Technologies
 
-This module uses:
+The implementation uses:
 
 - Apache Kafka
 - Apache Spark 3.5.0
@@ -310,75 +439,79 @@ org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0
 
 ---
 
-# How to Run
+# 6. Live Demo Quick Commands
 
-Run all commands from the project root directory.
+> This section is designed for the final project demonstration.
+
+Run the commands from the project root:
+
+```text
+TradeFinance-BigData-Final-Project
+```
 
 ---
 
-## Step 1 – Start the Big Data Environment
-
-```bash
-docker compose up -d
-```
-
-Check service status:
+## Demo Step 1 – Verify Big Data Services
 
 ```bash
 docker compose ps
 ```
 
-Required services should be running, including:
+Confirm that the required services are running.
+
+For Member 3, the most important services are:
 
 ```text
-Kafka
-Spark Master
-Spark Worker
-HDFS NameNode
-HDFS DataNode
-YARN ResourceManager
-YARN NodeManager
-Hive
-HBase
-ZooKeeper
+kafka
+spark-master
+spark-worker
 ```
 
 ---
 
-## Step 2 – Generate Trade Finance Data
+## Demo Step 2 – Verify Kafka Event Publication
+
+Check the Trade Finance producer output:
 
 ```bash
-docker compose up tf-data-generator
+echo "=== TRADE FINANCE KAFKA INGESTION ==="
+docker logs tf-event-producer 2>&1 | grep "Published"
 ```
 
-The generator creates Trade Finance transactions and lifecycle events.
+Expected result:
 
-The project dataset contains thousands of transactions and tens of thousands of lifecycle events.
+```text
+Published 76628 Trade Finance events.
+```
 
 ---
 
-## Step 3 – Publish Trade Finance Events to Kafka
+## Demo Step 3 – Show One Real Kafka Event
 
-```bash
-docker compose up tf-event-producer
-```
-
-Successful execution should report that Trade Finance events were published to Kafka.
-
-Kafka topics can be checked using:
+Display one Letter of Credit event from Kafka:
 
 ```bash
 docker exec kafka \
-  /opt/kafka/bin/kafka-topics.sh \
+  /opt/kafka/bin/kafka-console-consumer.sh \
   --bootstrap-server kafka:9092 \
-  --list
+  --topic tf.lc.events \
+  --from-beginning \
+  --max-messages 1
 ```
+
+Expected result:
+
+A JSON Trade Finance event should appear.
+
+This confirms that Kafka contains actual Trade Finance messages.
 
 ---
 
-# Prepare Spark Applications
+# 7. Prepare Spark Applications
 
-Create the Member 3 application directory inside the Spark Master container:
+The Spark applications are copied into the Spark Master container.
+
+Create the application directory if necessary:
 
 ```bash
 docker exec spark-master mkdir -p /opt/member3
@@ -400,7 +533,7 @@ docker cp \
   spark-master:/opt/member3/trade_finance_analytics.py
 ```
 
-Copy the risk alert application:
+Copy the risk application:
 
 ```bash
 docker cp \
@@ -408,7 +541,7 @@ docker cp \
   spark-master:/opt/member3/trade_finance_risk_alerts.py
 ```
 
-Verify the files:
+Verify:
 
 ```bash
 docker exec spark-master ls -lh /opt/member3/
@@ -424,43 +557,72 @@ trade_finance_risk_alerts.py
 
 ---
 
-# Run Application 1 – Kafka to Spark Structured Streaming
+# 8. Important – Check Spark Before Every Demo
 
-Before execution, confirm that another Trade Finance Spark job is not already running:
+The current Spark development environment has limited Worker resources.
+
+Only one major Trade Finance streaming application should run at a time.
+
+Before starting each Spark demonstration, run:
 
 ```bash
 docker exec spark-master sh -lc \
 'ps -ef | grep -E "trade_finance|spark-submit|pyspark" | grep -v grep'
 ```
 
-If no process is displayed, run:
+If the command returns no result, continue.
+
+If an old Trade Finance process is still running, terminate it:
+
+```bash
+docker exec spark-master sh -lc \
+"pkill -TERM -f 'trade_finance_(streaming|analytics|risk_alerts)\.py' || true"
+```
+
+Then verify again:
+
+```bash
+docker exec spark-master sh -lc \
+'ps -ef | grep -E "trade_finance|spark-submit|pyspark" | grep -v grep'
+```
+
+---
+
+# 9. Demo – Spark Structured Streaming
+
+Run:
 
 ```bash
 docker exec spark-master sh -lc '
-timeout 60s /opt/spark/bin/spark-submit \
+timeout 30s /opt/spark/bin/spark-submit \
   --master spark://spark-master:7077 \
   --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0 \
   /opt/member3/trade_finance_streaming.py
-'
+' 2>&1 | sed -n '/TRADE FINANCE STRUCTURED STREAMING STARTED/,$p'
 ```
 
-Expected output includes:
+Expected output:
 
 ```text
 TRADE FINANCE STRUCTURED STREAMING STARTED
-
 Kafka -> Spark Structured Streaming -> JSON Parsing
 
 Batch: 0
 ```
 
-followed by structured Trade Finance event records.
+The output should contain structured records from different Trade Finance Kafka topics.
 
 ---
 
-# Run Application 2 – Real-Time Analytics
+## Presentation Explanation
 
-Confirm again that no previous Trade Finance Spark application is using the worker:
+> Spark Structured Streaming consumes multiple Trade Finance Kafka topics in real time. The incoming JSON payloads are parsed, validated, and transformed into structured transaction and risk-related fields.
+
+---
+
+# 10. Demo – Real-Time Analytics
+
+First verify that the previous Spark application has stopped:
 
 ```bash
 docker exec spark-master sh -lc \
@@ -471,11 +633,11 @@ Then run:
 
 ```bash
 docker exec spark-master sh -lc '
-timeout 60s /opt/spark/bin/spark-submit \
+timeout 35s /opt/spark/bin/spark-submit \
   --master spark://spark-master:7077 \
   --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0 \
   /opt/member3/trade_finance_analytics.py
-'
+' 2>&1 | sed -n '/REAL-TIME TRADE FINANCE ANALYTICS/,$p'
 ```
 
 Expected output:
@@ -486,13 +648,31 @@ REAL-TIME TRADE FINANCE ANALYTICS
 Unique Transaction & Currency Exposure Monitoring
 ```
 
-followed by continuously updated currency-level KPIs.
+The output should display:
+
+```text
+currency
+unique_transactions
+total_value
+avg_transaction_value
+high_risk_transactions
+discrepancy_transactions
+delayed_transactions
+```
 
 ---
 
-# Run Application 3 – Real-Time Risk Alerts
+## Presentation Explanation
 
-Check that no previous Trade Finance Spark application is running:
+> A Trade Finance transaction can generate multiple lifecycle events. Therefore, I deduplicate the stream using the transaction ID before calculating transaction-level KPIs.
+
+> I also calculate exposure separately by currency because values denominated in CAD, USD, EUR, JPY and other currencies should not be directly combined.
+
+---
+
+# 11. Demo – Real-Time Risk Alerts
+
+Verify again that no old Spark process remains:
 
 ```bash
 docker exec spark-master sh -lc \
@@ -503,11 +683,11 @@ Then run:
 
 ```bash
 docker exec spark-master sh -lc '
-timeout 60s /opt/spark/bin/spark-submit \
+timeout 35s /opt/spark/bin/spark-submit \
   --master spark://spark-master:7077 \
   --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0 \
   /opt/member3/trade_finance_risk_alerts.py
-'
+' 2>&1 | sed -n '/REAL-TIME TRADE FINANCE RISK ALERTS/,$p'
 ```
 
 Expected output:
@@ -518,127 +698,142 @@ REAL-TIME TRADE FINANCE RISK ALERTS
 Streaming Rule-Based Risk Detection
 ```
 
-followed by HIGH-risk transaction alerts.
+The alert table should include:
+
+```text
+transaction_id
+product_type
+beneficiary_country
+currency
+amount
+risk_score
+risk_level
+risk_reason
+```
 
 ---
 
-# Spark Resource Note
+## Presentation Explanation
 
-The current development environment uses a limited Spark worker.
+> The rule-based risk engine evaluates customer risk, document discrepancies, processing delays and large transaction amounts.
 
-Only one major Trade Finance Structured Streaming application should be executed at a time.
+> Each condition contributes to the transaction risk score. Transactions with a risk score of five or above are classified as HIGH risk and immediately displayed with a human-readable risk reason.
 
-Before starting another application, use:
+---
+
+# 12. Demo Ending
+
+After demonstrating the risk alerts, return to this README and show the following pipeline:
+
+```text
+Kafka
+   ↓
+Spark Structured Streaming
+   ↓
+Structured Trade Finance Events
+   ↓
+Real-Time Analytics
+   ↓
+Risk Scoring
+   ↓
+Actionable High-Risk Alerts
+```
+
+Presentation closing statement:
+
+> This completes my real-time Big Data Engineering pipeline, from Kafka event ingestion through Spark Structured Streaming to real-time Trade Finance analytics and actionable risk monitoring.
+
+---
+
+# 13. Timeout Behaviour
+
+The demonstration commands use:
+
+```text
+timeout 30s
+```
+
+or:
+
+```text
+timeout 35s
+```
+
+because Spark Structured Streaming applications normally run continuously.
+
+The timeout automatically stops the demonstration after a short period.
+
+A shutdown-related message may appear if Spark is stopped while a micro-batch is running.
+
+For example:
+
+```text
+Cannot call methods on a stopped SparkContext
+```
+
+This does not invalidate the successful micro-batches generated before the timeout.
+
+---
+
+# 14. Common Spark Resource Issue
+
+If the following message appears:
+
+```text
+Initial job has not accepted any resources
+```
+
+check whether another Trade Finance Spark process is already running:
 
 ```bash
 docker exec spark-master sh -lc \
 'ps -ef | grep -E "trade_finance|spark-submit|pyspark" | grep -v grep'
 ```
 
-If an old Trade Finance application remains active, it may consume all Spark Worker resources and cause:
-
-```text
-Initial job has not accepted any resources
-```
-
-A remaining Trade Finance application can be terminated using:
+Terminate old applications if necessary:
 
 ```bash
 docker exec spark-master sh -lc \
 "pkill -TERM -f 'trade_finance_(streaming|analytics|risk_alerts)\.py' || true"
 ```
 
-Then verify again that no process remains.
+Then verify that the process list is empty before starting the next Spark application.
 
 ---
 
-# Timeout Behaviour
+# 15. Key Design Decisions
 
-The demonstration commands use:
+## 15.1 Transaction Deduplication
 
-```text
-timeout 60s
-```
+A Trade Finance transaction produces multiple lifecycle events.
 
-because Spark Structured Streaming applications are designed to run continuously.
-
-For the project demonstration, the timeout automatically stops the application after approximately 60 seconds.
-
-When the timeout terminates a running micro-batch, Spark may display a shutdown-related message such as:
+Without transaction-level deduplication:
 
 ```text
-Cannot call methods on a stopped SparkContext
+One Transaction
+      ↓
+Multiple Events
+      ↓
+Same Transaction Amount Repeated
+      ↓
+Overstated Financial Exposure
 ```
 
-This can occur because the demonstration timeout stops the Spark context while the continuous streaming query is still active.
-
-Successful batches generated before the timeout remain valid demonstration results.
-
----
-
-# Demonstration Flow
-
-For the final demonstration, the recommended sequence is:
-
-```text
-1. Verify Docker services
-        ↓
-2. Generate Trade Finance data
-        ↓
-3. Publish events to Kafka
-        ↓
-4. Demonstrate Kafka topics
-        ↓
-5. Run Spark Structured Streaming
-        ↓
-6. Demonstrate real-time analytics
-        ↓
-7. Demonstrate high-risk alerts
-```
-
-The demonstration shows the complete real-time flow:
-
-```text
-Trade Finance Events
-        ↓
-Kafka
-        ↓
-Spark Structured Streaming
-        ↓
-JSON Parsing & Validation
-        ↓
-Transaction-Level Processing
-        ↓
-Real-Time Analytics
-        ↓
-Risk Scoring
-        ↓
-High-Risk Alerts
-```
-
----
-
-# Key Design Decisions
-
-## Transaction Deduplication
-
-Trade Finance transactions generate multiple lifecycle events.
-
-Using the same transaction amount from every event would overstate transaction value.
-
-Therefore:
+The application therefore deduplicates using:
 
 ```text
 transaction_id
 ```
 
-is used to identify unique transactions before transaction-level analytics are calculated.
+before calculating transaction-level analytics.
 
 ---
 
-## Currency-Level Analysis
+## 15.2 Currency-Level Analytics
 
-Transaction values in:
+Trade Finance activity includes multiple currencies.
+
+The system therefore calculates exposure separately for:
 
 ```text
 CAD
@@ -649,17 +844,15 @@ JPY
 USD
 ```
 
-are not directly added together.
-
-The analytics pipeline groups transactions by currency to provide more meaningful exposure monitoring.
+rather than incorrectly combining nominal values from different currencies.
 
 ---
 
-## Rule-Based Risk Engine
+## 15.3 Transparent Risk Rules
 
-Risk detection is intentionally transparent.
+The Member 3 risk engine uses explicit rules instead of a black-box scoring process.
 
-The risk engine allows users to see:
+The user can see:
 
 ```text
 Risk Score
@@ -669,61 +862,71 @@ Risk Level
 Risk Reason
 ```
 
-for each high-risk transaction.
+for every HIGH-risk alert.
 
-This module focuses on real-time engineering and rule-based monitoring.
+This improves interpretability and supports transaction prioritization.
 
-Machine Learning-based predictive analysis is handled separately by the project intelligence and decision-support component.
-
----
-
-# Project Evidence
-
-The Member 3 implementation demonstrates:
-
-1. Kafka successfully receiving Trade Finance lifecycle events
-2. Spark Structured Streaming consuming multiple Kafka topics
-3. Real-time transaction and currency analytics
-4. Real-time rule-based risk detection and HIGH-risk alerts
-
-The main demonstration evidence includes:
-
-```text
-01_Kafka_Ingestion
-02_Spark_Structured_Streaming
-03_Real_Time_Trade_Finance_Analytics
-04_Real_Time_Risk_Alerts
-```
+Machine Learning-based predictive analysis is handled separately by the intelligence and decision-support component of the overall project.
 
 ---
 
-# Member 3 Contribution
+# 16. Member 3 Contribution
 
 **Name:** Han-Pin Hung  
-**Role:** Real-Time Big Data Engineering  
+**Role:** Member 3 – Real-Time Big Data Engineering
 
-### Main Contributions
+Main contributions:
 
 - Stabilized Spark-related Big Data infrastructure dependencies
 - Integrated Kafka with Spark Structured Streaming
-- Implemented multi-topic Trade Finance event ingestion
-- Implemented JSON schema parsing and basic validation
-- Extracted transaction-level business fields
+- Implemented multi-topic Kafka ingestion
+- Implemented JSON schema parsing
+- Implemented basic event validation
+- Extracted Trade Finance business fields
 - Implemented transaction deduplication
-- Developed real-time Trade Finance currency analytics
-- Developed real-time risk scoring logic
+- Developed real-time currency exposure analytics
+- Developed real-time KPI monitoring
+- Designed transparent rule-based risk scoring
 - Implemented HIGH-risk transaction alerts
-- Added reproducible execution and demonstration documentation
+- Documented execution and demonstration procedures
 
 ---
 
-## Summary
+# 17. Key Results
 
-The Member 3 module provides the real-time processing layer of the Trade Finance Intelligence and Risk Management platform.
-
-It transforms raw Trade Finance lifecycle events into:
+The Member 3 implementation successfully demonstrates:
 
 ```text
+76,628 Trade Finance lifecycle events
+                ↓
+              Kafka
+                ↓
+      Spark Structured Streaming
+                ↓
+       Structured Event Data
+                ↓
+      Transaction Deduplication
+                ↓
+       Currency-Level Analytics
+                ↓
+          Risk Scoring
+                ↓
+       HIGH-RISK ALERTS
+```
+
+The real-time layer converts operational Trade Finance events into information that can support risk monitoring and management decision-making.
+
+---
+
+# 18. Conclusion
+
+The Member 3 component provides the real-time processing layer of the Trade Finance Intelligence and Risk Management platform.
+
+The implementation demonstrates the transformation:
+
+```text
+Raw Lifecycle Events
+        ↓
 Structured Events
         ↓
 Business KPIs
@@ -733,7 +936,9 @@ Risk Scores
 Actionable High-Risk Alerts
 ```
 
-This demonstrates how Kafka and Spark Structured Streaming can support real-time financial transaction monitoring and risk management in a Trade Finance environment.
+Apache Kafka provides the event-streaming layer, while Spark Structured Streaming performs scalable real-time processing, analytics, and risk evaluation.
+
+The resulting pipeline complements the historical analytics and Machine Learning components of the overall Trade Finance platform.
 
 ---
 
