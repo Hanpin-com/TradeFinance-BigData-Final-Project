@@ -33,7 +33,7 @@ services:
       HADOOP_ROLE: datanode
     depends_on:
       namenode:
-        condition: service_healthy
+        condition: service_started
     ports:
     - 9864:9864
     volumes:
@@ -70,7 +70,7 @@ services:
     healthcheck:
       test:
       - CMD-SHELL
-      - curl -fs http://localhost:8088/ws/v1/cluster/info >/dev/null || exit 1
+      - curl -fs http://resourcemanager:8088/ws/v1/cluster/info >/dev/null || exit 1
       interval: 15s
       timeout: 5s
       retries: 30
