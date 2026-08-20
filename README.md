@@ -68,3 +68,9 @@ After those are healthy:
 
 Validate:
 `bash scripts/trade-finance/validate-trade-finance.sh`
+
+## Member branches
+- `member1-business-architecture` — Business case, dataset, architecture, HDFS, YARN (see `member1/`)
+- `member2-hive-hbase` — Historical Hive / HBase
+- `member3-streaming` — Kafka / Spark streaming
+- `member4-vedant` — ML / Power BI
